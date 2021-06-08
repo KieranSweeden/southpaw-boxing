@@ -166,26 +166,27 @@ The primary goal of the Southpaw Boxing Club website is to present information r
 
 </details>
 
-#### Features
+<details>
+<summary>Potential Features</summary>
 
 |                    Features                     | Importance |        Viability         |
 | :---------------------------------------------: | :--------: | :----------------------: |
 |         Pay for a booked session online         |     4      |            1             |
-|      "What boxing style is for you?" page       |     5      |            4             |
+|   "What boxing style is for you?" guide page    |     5      |            4             |
 |         Showcase attendee achievements          |     3      |            3             |
 | Contact form (Private Sessions/General Queries) |     5      |            5             |
 |            Online exercise sessions             |     3      |            2             |
 |             Short on-demand lessons             |     2      |            1             |
 |                                                 |  22 (Sum)  | 16.2 (Average Viability) |
 
-Above are a list of features that are given a rating from 1 to 5 on importance and viability respectively.
+Above are a list of potential features that are given a rating from 1 to 5 on importance and viability respectively.
 
 - Pay for a booked session online
   - This would be an incredibly useful feature for the boxing club. It would provide opportunities such as:
     - The club receieving a payment before a visitor attends a session.
     - Not taking cash during the current pandemic, reducing the transmission of the virus.
   - However the technology to implement such a feature is not yet understood, therefore the viability of implementing the feature would be very minimal.
-- "What boxing style is for you?" page
+- "What boxing style is for you?" guide page
   - It's to be expected that most new visitors would have little to no experience with boxing, therefore it's unrealistic to expect this audience to know exactly what's right for them and their goals. Therefore this page is of upmost importance, as it can help guide the visitor to the style that's right for them.
   - As this page would operate as a "guide", it should be treated like a tour where the user is being guided by scrolling down the page.
   - A feature such as this would only need HTML, CSS and minimal JavaScript, meaning it will be very feasible.
@@ -201,13 +202,39 @@ Above are a list of features that are given a rating from 1 to 5 on importance a
   - Short bitsize lessons available online for the visitor to try, get's them immediately started and allows the visitor to determine whether the tutor's teaching style is suitable for them.
   - A feature such as this would require knowledge on video production in order to maintain a professional and modern look. This is not currently known, making this feature currently unfeasible.
 
-#### Scope
+</details>
 
-#### Structure
+### Scope
 
-#### Skeleton
+What's on the table?
 
-#### Surface
+For the initial release of the website, the features present should align with the strategy previously stated, helping both the visitor and business with their respective goals. Taking this into consideration along with the viability of some of the previously mentioned features, the features which should be on the table include:
+
+- "What Boxing Style is for You? guide page
+- A contact form that covers multiple facets of the business
+- Showcase attendee achievements
+
+Keeping the scope of this project to a minimal and realistic size, increases the likelihood of meeting provided deadlines. The features on the table could also be considered more a need than a want, as the visitor may need:
+
+- Additional help in making an informed choice in what they wish to learn.
+- A way to contact the club directly if they have any further questions.
+- To see that the club is proven in helping individuals achieve their personal goals.
+
+The features that are currently off the table, would be nice to include within the website but ultimately would not tackle visitor and business goals as much as those currently on the table. An argument could definitely be made that online payments would be a solid feature to implement, however the amount of time it would take to learn and implement this feature makes it unrealistic for the time being.
+
+Therefore the features off the table for the time being are:
+
+- Book & Pay Online
+- Online Exercise Sessions
+- Short on-demand Lessons
+
+### Structure
+
+A webpage structure for the project can be found <a href="/assets/images/readme/southpaw-structure.png" target="_blank">here</a>.
+
+### Skeleton
+
+### Surface
 
 [Return to Index](#index)
 
@@ -215,7 +242,7 @@ Above are a list of features that are given a rating from 1 to 5 on importance a
 
 ### Current
 
-### Potential
+### Future
 
 [Return to Index](#index)
 
