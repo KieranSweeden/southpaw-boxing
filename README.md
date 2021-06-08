@@ -230,7 +230,12 @@ Therefore the features off the table for the time being are:
 
 ### Structure
 
-A webpage structure for the project can be found <a href="/assets/images/readme/southpaw-structure.png" target="_blank">here</a>.
+<details>
+<summary>An image of the webpage structure</summary>
+
+![here](assets/images/readme/southpaw-structure.png).
+
+</details>
 
 ### Skeleton
 
