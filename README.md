@@ -239,6 +239,13 @@ Therefore the features off the table for the time being are:
 
 ### Skeleton
 
+Wireframes can be viewed here:
+
+<details>
+<summary>X-Small & Small screen sizes</summary>
+
+</details>
+
 ### Surface
 
 [Return to Index](#index)
