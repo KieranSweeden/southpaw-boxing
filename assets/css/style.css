@@ -24,6 +24,10 @@ body {
 
 /* Utilities */
 
+.container-fluid {
+  background-color: var(--black-color);
+}
+
 /* Navigation */
 
 #nav-container {
@@ -126,3 +130,39 @@ body {
 }
 
 /* Footer */
+
+#footer-container {
+  background-color: var(--black-color);
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#footer-container p {
+  color: var(--light-grey-color);
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+#social-media-footer-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-container ul li a i {
+  color: var(--light-grey-color);
+  font-size: 1.5rem;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+  margin: 0.3rem 0 0 0;
+}
+
+#footer-container i:hover {
+  color: var(--lime-color);
+}
