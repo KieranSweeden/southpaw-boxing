@@ -330,6 +330,23 @@ Wireframes for screen sizes can be viewed here:
 
 ### Surface
 
+The design of the Southpaw Boxing Club website will feature a distinct visual language. This is essential in subtly providing information to the user, regarding the function and/or importance of elements presented in front of the them.
+
+Here are the facets of the visual language and how the Southpaw Boxing Club website will take them into consideration.
+
+- Colour - The colour palette will be as follows:
+  ![Colour Palette](assets/images/readme/colour-palette.png)
+  The website will feature a partially monochrome look with a feature colour being "electric lime". The lime colour will provide minimal styling across the site and also provide navgational context, such as the active page on the nav bar and when the user hovers over a button/link.
+
+- Layout - The layout will remain consistent throughout the site so it quickly becomes familiar to the user. This includes elements such as the navigation that's consistently placed at the top and the social media links remaining at the bottom right of every page. The only exception is the home page (index.html), this is so that the branding is front and center and the user can instantly navigate to the section they wish to visit.
+
+- Typography
+
+  - The font family used for the logo and header text is the [Big Shoulders Stencil Display](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display) font. This is a modern and distinct font style, making it suitable for the use of headers. The letter spacing will be wider within the site than the font default, making it easier to read and gives it a more modern look.
+  - The font family used for general text throughout the site is the [Raleway](https://fonts.google.com/specimen/Raleway) font. This modern sans-serif font is suitable as it's easy to read, which will be useful for smaller screen sizes and also features multiple weight, italic and bold variations, allowing another way to inform the user that a particular piece of text may be of value to them.
+
+- Images/Video - Images and video elements throughout the site will sport the monochrome look, further supporting the visual style of the site.
+
 [Return to Index](#index)
 
 ## Features
