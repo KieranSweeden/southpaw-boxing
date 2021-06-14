@@ -408,6 +408,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 ### Code
 
+- I encountered a problem where hovering wasn't functioning properly on elements within the navigation bar. I found out that I wasn't writing the syntax correctly by looking at [this Stack Overflow post](https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter).
+
 ### Resources
 
 ### Content
