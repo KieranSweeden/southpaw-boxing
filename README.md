@@ -239,10 +239,14 @@ Therefore the features off the table for the time being are:
 
 ### Skeleton
 
-Wireframes can be viewed here:
+Wireframes for screen sizes can be viewed here:
+
+#### Home Page
 
 <details>
-<summary>X-Small & Small screen sizes</summary>
+<summary>X-Small & Small</summary>
+
+![xs & s home page](assets/images/readme/)
 
 </details>
 
