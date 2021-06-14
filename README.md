@@ -241,12 +241,90 @@ Therefore the features off the table for the time being are:
 
 Wireframes for screen sizes can be viewed here:
 
-#### Home Page
+<details>
+<summary>Home Page (index.html)</summary>
+
+![xs & s home page](assets/images/readme/wireframes/mobile/home-mobile.png)
+
+![m home page](assets/images/readme/wireframes/tablet/home-tablet.png)
+
+![l+ home page](assets/images/readme/wireframes/desktop/home-desktop.png)
+
+</details>
 
 <details>
-<summary>X-Small & Small</summary>
+<summary>Boxing Guide Page (boxing-guide.html)</summary>
 
-![xs & s home page](assets/images/readme/)
+<details>
+<summary>Mobile screens</summary>
+
+![xs and s boxing guide page 1](assets/images/readme/wireframes/mobile/guide-1-of-4-mobile.png)
+
+![xs and s boxing guide page 2](assets/images/readme/wireframes/mobile/guide-2-of-4-mobile.png)
+
+![xs and s boxing guide page 3](assets/images/readme/wireframes/mobile/guide-3-of-4-mobile.png)
+
+![xs and s boxing guide page 4](assets/images/readme/wireframes/mobile/guide-4-of-4-mobile.png)
+
+</details>
+
+<details>
+<summary>Tablet screens</summary>
+
+![m boxing guide page 1](assets/images/readme/wireframes/tablet/guide-1-of-4-tablet.png)
+
+![m boxing guide page 2](assets/images/readme/wireframes/tablet/guide-2-of-4-tablet.png)
+
+![m boxing guide page 3](assets/images/readme/wireframes/tablet/guide-3-of-4-tablet.png)
+
+![m boxing guide page 4](assets/images/readme/wireframes/tablet/guide-4-of-4-tablet.png)
+
+</details>
+
+<details>
+<summary>Desktop screens</summary>
+
+![l+ boxing guide page 1](assets/images/readme/wireframes/desktop/guide-1-of-8-desktop.png)
+
+![l+ boxing guide page 2](assets/images/readme/wireframes/desktop/guide-2-of-8-desktop.png)
+
+![l+ boxing guide page 3](assets/images/readme/wireframes/desktop/guide-3-of-8-desktop.png)
+
+![l+ boxing guide page 4](assets/images/readme/wireframes/desktop/guide-4-of-8-desktop.png)
+
+![l+ boxing guide page 5](assets/images/readme/wireframes/desktop/guide-5-of-8-desktop.png)
+
+![l+ boxing guide page 6](assets/images/readme/wireframes/desktop/guide-6-of-8-desktop.png)
+
+![l+ boxing guide page 7](assets/images/readme/wireframes/desktop/guide-7-of-8-desktop.png)
+
+![l+ boxing guide page 8](assets/images/readme/wireframes/desktop/guide-8-of-8-desktop.png)
+
+</details>
+
+</details>
+
+<details>
+<summary>Sessions Page (sessions.html)</summary>
+
+![xs & s home page](assets/images/readme/wireframes/mobile/sessions-mobile.png)
+
+![m home page](assets/images/readme/wireframes/tablet/sessions-tablet.png)
+
+![l+ home page](assets/images/readme/wireframes/desktop/sessions-desktop.png)
+
+</details>
+
+<details>
+<summary>Contact Pages (contact.html & form-success.html)</summary>
+
+![xs & s home page](assets/images/readme/wireframes/mobile/contact-mobile.png)
+
+![m home page](assets/images/readme/wireframes/tablet/contact-tablet.png)
+
+![l+ home page](assets/images/readme/wireframes/desktop/contact-desktop.png)
+
+![l+ home page](assets/images/readme/wireframes/desktop/success-desktop.png)
 
 </details>
 
