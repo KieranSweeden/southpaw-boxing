@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Root */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: #151414;
+  --dark-grey-color: #40434f;
+  --light-grey-color: #d2d4db;
+  --white-color: #fafffd;
+  --lime-color: #c5f613;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+}
+
+/* Color */
+
+/* Utilities */
+
+/* Navigation */
+
+/* Footer */
