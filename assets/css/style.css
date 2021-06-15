@@ -66,10 +66,12 @@ body {
   bottom: 0.3rem;
   left: 0;
   border: 0.15rem transparent solid;
-  transition: all 200ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
-#southpaw-abbreviated-logo:hover::after {
+#southpaw-abbreviated-logo:hover::after,
+#southpaw-abbreviated-logo:focus::after,
+#southpaw-abbreviated-logo:active::after {
   border: 0.15rem var(--lime-color) solid;
   width: 100%;
 }
@@ -110,11 +112,12 @@ body {
   bottom: -0.1rem;
   left: 0;
   border: 0.15rem transparent solid;
-  transition: all 200ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .nav-pills .nav-link:hover::after,
-.nav-pills .nav-link:focus::after {
+.nav-pills .nav-link:focus::after,
+.nav-pills .nav-link:active::after {
   border: 0.15rem var(--lime-color) solid;
   width: 100%;
 }
