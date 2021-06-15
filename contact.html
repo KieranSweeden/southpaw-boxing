@@ -39,8 +39,44 @@
 
   <!-- Form Start -->
   <section class="container" id="form-container">
-    <div class="form">
-
+    <div class="form p-3 g-5">
+      <div class="row justify-content-around">
+        <div class="col-6 text-center">
+          <h2 id="form-call-to-action">Message or</h2>
+        </div>
+        <div class="col-6 text-center">
+          <a href="#" class="btn btn-light" id="form-btn">Call Us</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <label class="d-block" for="f-name-input">First Name</label>
+          <input type="text" name="f-name-input" id="f-name-input" placeholder="Enter First Name">
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-6 justify-content">
+          <label class="d-block" for="email-input">Email</label>
+          <input type="email" name="email-input" id="email-input" placeholder="Enter Email">
+        </div>
+        <div class="col-6 justify-content">
+          <label class="d-block" for="topic-select">Topic</label>
+          <select name="topic" id="topic-select">
+            <option value="">Select Topic</option>
+            <option value="book private">Book Private</option>
+            <option value="children">Children</option>
+            <option value="clothing">Clothing</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label class="d-block" for="message-textarea">Message</label>
+          <textarea name="message-textarea" id="message-textarea" cols="30" rows="8"></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-light" type="submit">Send Message</button>
+        </div>
+      </div>
     </div>
   </section>
   <!-- Form End -->

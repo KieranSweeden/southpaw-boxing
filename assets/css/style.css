@@ -28,6 +28,28 @@ body {
   background-color: var(--black-color);
 }
 
+.btn {
+  border-radius: 0;
+  font-weight: 700;
+  border: none;
+}
+
+.btn-light {
+  background-color: transparent;
+  color: var(--white-color);
+  outline: 2px var(--light-grey-color) solid;
+  outline-offset: -0.2rem;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-light:hover,
+.btn-light:active,
+.btn-light:focus {
+  background-color: transparent;
+  color: var(--white-color);
+  outline: 4px var(--lime-color) solid;
+}
+
 /* Navigation */
 
 #nav-container {
@@ -164,6 +186,21 @@ body {
   background-color: var(--dark-grey-color);
   height: 95%;
   width: 100%;
+}
+
+#form-call-to-action {
+  color: var(--white-color);
+  margin: 0;
+}
+
+#form-container .form label {
+  color: var(--white-color);
+}
+
+#form-container .form input {
+  border-radius: 0;
+  border: none;
+  background-color: var(--white-color);
 }
 
 /* Footer */
