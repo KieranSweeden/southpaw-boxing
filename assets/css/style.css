@@ -132,6 +132,40 @@ body {
   width: 100%;
 }
 
+/* Header */
+
+.header-container {
+  background-color: var(--dark-grey-color);
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container h1 {
+  color: var(--white-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Form */
+
+#form-container {
+  background-color: var(--light-grey-color);
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-container .form {
+  background-color: var(--dark-grey-color);
+  height: 95%;
+  width: 100%;
+}
+
 /* Footer */
 
 #footer-container {
