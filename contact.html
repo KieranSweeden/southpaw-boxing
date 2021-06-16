@@ -39,29 +39,24 @@
 
   <!-- Form Start -->
   <section class="container" id="form-container">
-    <div class="form p-3 g-5">
-      <div class="row justify-content-around">
-        <div class="col-6 text-center">
-          <h2 id="form-call-to-action">Message or</h2>
-        </div>
-        <div class="col-6 text-center">
+    <div class="form-image-container ">
+
+    </div>
+    <form class="form d-flex flex-column justify-content-evenly align-items-center">
+      <div class="row w-75">
+        <div class="col-12 d-flex p-2 align-items-center justify-content-evenly">
+          <h2 class="d-inline" id="form-call-to-action">Message or</h2>
           <a href="#" class="btn btn-light" id="form-btn">Call Us</a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <label class="d-block" for="f-name-input">First Name</label>
-          <input type="text" name="f-name-input" id="f-name-input" placeholder="Enter First Name">
+      <div class="row w-75">
+        <div class="col-6 p-1">
+          <label class="d-block fw-bold pb-1" for="f-name-input">First Name</label>
+          <input class="w-100" type="text" name="f-name-input" id="f-name-input" placeholder="Enter Name">
         </div>
-      </div>
-      <div class="row justify-content-around">
-        <div class="col-6 justify-content">
-          <label class="d-block" for="email-input">Email</label>
-          <input type="email" name="email-input" id="email-input" placeholder="Enter Email">
-        </div>
-        <div class="col-6 justify-content">
-          <label class="d-block" for="topic-select">Topic</label>
-          <select name="topic" id="topic-select">
+        <div class="col-6 p-1">
+          <label class="d-block fw-bold pb-1" for="topic-select">Topic</label>
+          <select class="w-100" name="topic" id="topic-select">
             <option value="">Select Topic</option>
             <option value="book private">Book Private</option>
             <option value="children">Children</option>
@@ -69,15 +64,25 @@
             <option value="other">Other</option>
           </select>
         </div>
-        <div class="col-12">
-          <label class="d-block" for="message-textarea">Message</label>
-          <textarea name="message-textarea" id="message-textarea" cols="30" rows="8"></textarea>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-light" type="submit">Send Message</button>
+      </div>
+      <div class="row w-75">
+        <div class="col-12 p-1">
+          <label class="d-block fw-bold pb-1" for="email-input">Email</label>
+          <input class="w-100" type="email" name="email-input" id="email-input" placeholder="Enter Email">
         </div>
       </div>
-    </div>
+      <div class="row w-75">
+        <div class="col-12 p-1">
+          <label class="d-block fw-bold pb-1" for="message-textarea">Message</label>
+          <textarea placeholder="Write Your Message Here" class="w-100" name="message-textarea" id="message-textarea" cols="30" rows="6"></textarea>
+        </div>
+      </div>
+      <div class="row w-50">
+        <div class="col-12 d-flex pb-2 justify-content-center align-items-center">
+          <button class="btn btn-light w-100" type="submit">Send Message</button>
+        </div>
+      </div>
+    </form>
   </section>
   <!-- Form End -->
 

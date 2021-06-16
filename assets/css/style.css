@@ -184,7 +184,7 @@ body {
 
 #form-container .form {
   background-color: var(--dark-grey-color);
-  height: 95%;
+  height: 90%;
   width: 100%;
 }
 
@@ -195,12 +195,29 @@ body {
 
 #form-container .form label {
   color: var(--white-color);
+  letter-spacing: 0.1rem;
 }
 
 #form-container .form input {
   border-radius: 0;
   border: none;
   background-color: var(--white-color);
+}
+
+#form-container .form input,
+#form-container .form textarea {
+  padding-left: 5px;
+}
+
+#form-container .form input:focus,
+#form-container .form textarea:focus,
+#form-container .form button:focus {
+  outline: 3px var(--lime-color) solid;
+}
+
+#form-container .form input::placeholder,
+#form-container .form textarea::placeholder {
+  color: var(--dark-grey-color);
 }
 
 /* Footer */
