@@ -52,6 +52,12 @@ body {
 
 /* Navigation */
 
+#nav-wrapper {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 #nav-container {
   background-color: var(--black-color);
   display: flex;
@@ -164,12 +170,69 @@ body {
   align-items: center;
 }
 
-.header-container h1 {
+.header-container h1,
+h2 {
   color: var(--white-color);
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
+}
+
+.header-container i {
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+
+/* Public Sessions */
+
+#public-session-container {
+  height: 80vh;
+  background-color: var(--white-color);
+}
+
+#public-session-container .row {
+  height: 50%;
+}
+
+.public-session-info {
+  background-color: var(--light-grey-color);
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.public-session-info p {
+  margin-bottom: 0;
+  letter-spacing: 0.25px;
+}
+
+.public-session-times {
+  background-color: var(--black-color);
+}
+
+.public-session-times h3,
+.public-session-times h4 {
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+
+.public-session-times h3 {
+  font-weight: 700;
+}
+
+.public-session-times h4 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.public-session-times p {
+  color: var(--light-grey-color);
+  margin-bottom: 0;
+}
+
+.price-on-door {
+  font-size: 0.85rem;
 }
 
 /* Form */
