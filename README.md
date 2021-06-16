@@ -408,9 +408,13 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 ### Code
 
-- I encountered a problem where hovering wasn't functioning properly on elements within the navigation bar. I found out that I wasn't writing the syntax correctly by looking at [this Stack Overflow post](https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter).
+1. I used the code example provided by [Yakov](https://stackoverflow.com/users/4349420/yakov) within [this Stack Overflow post](https://stackoverflow.com/questions/27419509/make-a-href-which-open-a-google-map-with-specific-address), to create links that send the user to google maps focusing on each gym venue respectively.
 
 ### Resources
+
+- I encountered a problem where hovering wasn't functioning properly on elements within the navigation bar. I found out that I wasn't writing the syntax correctly by looking at [this Stack Overflow post](https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter).
+
+- I stumbled across an issue where the navigation bar was not sticking to the top of the viewport after using "position: sticky". After looking at [this Stack Overflow post](https://stackoverflow.com/questions/43707076/how-does-the-position-sticky-property-work), I noticed I had not included a "threshold with at least one of top, right, bottom or left". After including "top: 0", the problem was resolved.
 
 ### Content
 
