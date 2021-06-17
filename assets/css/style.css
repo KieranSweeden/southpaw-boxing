@@ -235,6 +235,7 @@ h2 {
   text-transform: uppercase;
 }
 
+.public-session-times time,
 .public-session-times p {
   color: var(--light-grey-color);
   margin-bottom: 0;
