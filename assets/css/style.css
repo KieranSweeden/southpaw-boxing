@@ -179,6 +179,11 @@ h2 {
   margin: 0;
 }
 
+.header-container p {
+  color: var(--white-color);
+  margin: 0;
+}
+
 .header-container i {
   color: var(--white-color);
   font-size: 1.2rem;
@@ -196,7 +201,7 @@ h2 {
 }
 
 .public-session-info {
-  background-color: var(--light-grey-color);
+  background-color: var(--white-color);
   text-align: left;
   justify-content: center;
   align-items: center;
@@ -233,6 +238,34 @@ h2 {
 
 .price-on-door {
   font-size: 0.85rem;
+}
+
+/* Private Sessions */
+
+#private-session-video {
+  height: 25vh;
+  background-color: var(--light-grey-color);
+}
+
+#private-session-info {
+  height: 35vh;
+}
+
+#private-session-info p {
+  margin-bottom: 0;
+  letter-spacing: 0.25px;
+}
+
+#session-contact-container {
+  height: 10vh;
+}
+
+#private-price-container {
+  background-color: var(--light-grey-color);
+}
+
+#private-price-container p {
+  color: var(--black-color);
 }
 
 /* Form */
