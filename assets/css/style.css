@@ -227,7 +227,7 @@ h2 {
 }
 
 .public-session-times h4 {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   text-transform: uppercase;
 }
 
@@ -277,6 +277,7 @@ h2 {
 
 #private-price-container p {
   color: var(--black-color);
+  letter-spacing: 0.8px;
 }
 
 /* Form */
