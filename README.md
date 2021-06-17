@@ -408,7 +408,9 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 ### Code
 
-1. I used the code example provided by [Yakov](https://stackoverflow.com/users/4349420/yakov) within [this Stack Overflow post](https://stackoverflow.com/questions/27419509/make-a-href-which-open-a-google-map-with-specific-address), to create links that send the user to google maps focusing on each gym venue respectively.
+1. I used the code example provided by [Yakov](https://stackoverflow.com/users/4349420/yakov) within [this Stack Overflow post](https://stackoverflow.com/questions/27419509/make-a-href-which-open-a-google-map-with-specific-address), to create links that send the user to google maps focusing on each gym venue respectively. This can be found within the [sessions.html](sessions.html) file.
+
+2. I used a code example provided by [David](https://stackoverflow.com/users/7753808/david) within [this Stack Overflow post](https://stackoverflow.com/questions/36949747/make-video-fit-100-with-any-screen-resolution), to center a video within it's container. This can be found within the [style.css](style.css) file.
 
 ### Resources
 

@@ -245,6 +245,17 @@ h2 {
 #private-session-video {
   height: 25vh;
   background-color: var(--light-grey-color);
+  position: relative;
+}
+
+#private-session-video video {
+  /* Credited Code (Video filling entire container, no.2 in credited code list iwthin README) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 #private-session-info {
