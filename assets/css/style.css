@@ -52,7 +52,7 @@ body {
 
 /* Navigation */
 
-#nav-wrapper {
+#main-nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -191,6 +191,17 @@ h2 {
 .header-container i {
   color: var(--white-color);
   font-size: 1.2rem;
+}
+
+/* Boxing Guide */
+
+#guide-intro-container {
+  height: 90vh;
+}
+
+#guide-intro-content {
+  height: 30vh;
+  background-color: var(--light-grey-color);
 }
 
 /* Public Sessions */

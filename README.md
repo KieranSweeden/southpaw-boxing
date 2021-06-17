@@ -382,8 +382,9 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 </details>
 
 <details>
-  <summary>Libraries</summary>
+  <summary>Libraries & Frameworks</summary>
 
+- [Bootstrap 5](https://getbootstrap.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
 </details>
@@ -421,6 +422,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 ### Content
 
 ### Media
+
+- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the [video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) used within the private sessions section of sessions.html.
 
 [Return to Index](#index)
 
