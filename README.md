@@ -411,7 +411,7 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 1. I used the code example provided by [Yakov](https://stackoverflow.com/users/4349420/yakov) within [this Stack Overflow post](https://stackoverflow.com/questions/27419509/make-a-href-which-open-a-google-map-with-specific-address), to create links that send the user to google maps focusing on each gym venue respectively. This can be found within the [sessions.html](sessions.html) file.
 
-2. I used a code example provided by [David](https://stackoverflow.com/users/7753808/david) within [this Stack Overflow post](https://stackoverflow.com/questions/36949747/make-video-fit-100-with-any-screen-resolution), to center a video within it's container. This can be found within the [style.css](assets/css/style.css) file.
+2. I used a code example provided by [David](https://stackoverflow.com/users/7753808/david) within [this Stack Overflow post](https://stackoverflow.com/questions/36949747/make-video-fit-100-with-any-screen-resolution), to centre a video within it's container. This can be found within the [style.css](assets/css/style.css) file.
 
 ### Resources
 
@@ -419,11 +419,18 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 - I stumbled across an issue where the navigation bar was not sticking to the top of the viewport after using "position: sticky". After looking at [this Stack Overflow post](https://stackoverflow.com/questions/43707076/how-does-the-position-sticky-property-work), I noticed I had not included a "threshold with at least one of top, right, bottom or left". After including "top: 0", the problem was resolved.
 
+- I struggled to select the last p element of the guide-intro-welcome section within boxing-guide.html. My intention was to remove the margin-bottom. After looking at [this CSS-Tricks article](https://css-tricks.com/almanac/selectors/l/last-child/), I encountered the useful :last-child pseudo-class which solved this problem.
+
 ### Content
 
 ### Media
 
-- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the [video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) used within the private sessions section of sessions.html.
+- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the images listed below:
+
+  - [This video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) was used within the private sessions section of sessions.html.
+
+- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the videos listed below:
+  - [This image](https://www.pexels.com/photo/man-in-black-boxing-gloves-4752871/) was used within the intro section of boxing-guide.html.
 
 [Return to Index](#index)
 

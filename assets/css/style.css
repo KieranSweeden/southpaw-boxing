@@ -210,6 +210,7 @@ h2 {
   text-align: end;
 }
 
+/* Credited Code (Remove margin of last child in container, #3 in credited code list within README */
 #guide-intro-welcome p:last-child {
   margin: 0;
 }
@@ -275,7 +276,7 @@ h2 {
 }
 
 #private-session-video video {
-  /* Credited Code (Video filling entire container, no.2 in credited code list iwthin README) */
+  /* Credited Code (Video filling entire container, #2 in credited code list within README) */
   position: absolute;
   top: 0;
   left: 0;
