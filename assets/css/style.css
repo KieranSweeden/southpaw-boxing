@@ -64,6 +64,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 10vh;
+  padding-bottom: 0.5rem;
 }
 
 #southpaw-abbreviated-logo {
