@@ -214,13 +214,37 @@ h2 {
   text-align: end;
 }
 
-#guide-intro-welcome p:last-child {
+#guide-intro-welcome p:last-child,
+#guide-intro-text p:last-child {
   margin: 0;
 }
 
 #guide-intro-info {
   background-color: var(--light-grey-color);
-  height: 35vh;
+  height: 30vh;
+}
+
+.guide-footer {
+  background-color: var(--dark-grey-color);
+  height: 15vh;
+}
+
+#guide-footer-social-links {
+  list-style: none;
+  margin: 0 !important;
+}
+
+#guide-footer-social-links li a i {
+  color: var(--light-grey-color);
+  font-size: 1.5rem;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+  margin: 0.3rem 0 0 0;
+}
+
+#guide-footer-social-links li i:hover {
+  color: var(--lime-color);
 }
 
 /* Public Sessions */
