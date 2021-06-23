@@ -246,6 +246,10 @@ h2 {
   height: 50%;
 }
 
+#public-session-container address {
+  margin-bottom: 0.5rem;
+}
+
 .public-session-info {
   background-color: var(--white-color);
   text-align: left;
@@ -281,10 +285,11 @@ h2 {
 .public-session-times p {
   color: var(--light-grey-color);
   margin-bottom: 0;
+  font-size: 0.75rem;
 }
 
 .price-on-door {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 /* Private Sessions */
