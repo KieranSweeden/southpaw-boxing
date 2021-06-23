@@ -201,8 +201,12 @@ h2 {
 
 #guide-intro-welcome {
   height: 40vh;
-  background: url(../images/boxing-guide/southpaw-image-child-posture.jpg)
-    no-repeat center/cover;
+
+  /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
+  background: rgba(0, 0, 0, 0.4)
+    url(../images/boxing-guide/southpaw-image-child-posture.jpg) no-repeat
+    center/cover;
+  background-blend-mode: multiply;
 }
 
 #guide-intro-welcome p {
@@ -210,7 +214,6 @@ h2 {
   text-align: end;
 }
 
-/* Credited Code (Remove margin of last child in container, #3 in credited code list within README */
 #guide-intro-welcome p:last-child {
   margin: 0;
 }

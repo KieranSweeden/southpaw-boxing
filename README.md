@@ -413,6 +413,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 2. I used a code example provided by [David](https://stackoverflow.com/users/7753808/david) within [this Stack Overflow post](https://stackoverflow.com/questions/36949747/make-video-fit-100-with-any-screen-resolution), to centre a video within it's container. This can be found within the [style.css](assets/css/style.css) file.
 
+3. I used a code example provided by [G-Cyrillus](https://stackoverflow.com/users/2442099/g-cyrillus) and [Mosh Feu](https://stackoverflow.com/users/863110/mosh-feu) within [this Stack Overflow post](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image), to set a dark overlay over the background image of the #guide-intro-welcome section, within the [boxing-guide.html](boxing-guide.html) file.
+
 ### Resources
 
 - I encountered a problem where hovering wasn't functioning properly on elements within the navigation bar. I found out that I wasn't writing the syntax correctly by looking at [this Stack Overflow post](https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter).
