@@ -209,12 +209,12 @@ h2 {
 
 #guide-intro-info {
   background-color: var(--light-grey-color);
-  height: 30vh;
+  height: 35vh;
 }
 
 .guide-footer {
   background-color: var(--black-color);
-  height: 15vh;
+  height: 10vh;
 }
 
 #guide-footer-social-links {
