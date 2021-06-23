@@ -218,6 +218,11 @@ h2 {
   margin: 0;
 }
 
+#guide-intro-info {
+  background-color: var(--light-grey-color);
+  height: 35vh;
+}
+
 /* Public Sessions */
 
 #public-session-container {
