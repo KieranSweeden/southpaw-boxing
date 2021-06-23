@@ -84,33 +84,6 @@ body {
   color: var(--lime-color);
 }
 
-/* #southpaw-abbreviated-logo::before {
-  content: "";
-  width: 100%;
-  position: absolute;
-  bottom: 0.3rem;
-  left: 0;
-  border: 0.15rem var(--dark-grey-color) solid;
-  transition: border 300ms ease-in-out;
-}
-
-#southpaw-abbreviated-logo::after {
-  content: "";
-  width: 0;
-  position: absolute;
-  bottom: 0.3rem;
-  left: 0;
-  border: 0.15rem transparent solid;
-  transition: all 100ms ease-in-out;
-}
-
-#southpaw-abbreviated-logo:hover::after,
-#southpaw-abbreviated-logo:focus::after,
-#southpaw-abbreviated-logo:active::after {
-  border: 0.15rem var(--lime-color) solid;
-  width: 100%;
-} */
-
 #southpaw-abbreviated-logo abbr {
   text-decoration: none;
   cursor: pointer;
