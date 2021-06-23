@@ -195,8 +195,15 @@ h2 {
 
 /* Boxing Guide */
 
+#boxing-guide-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 90vh;
+}
+
 .guide-slide {
-  height: 70vh;
+  scroll-snap-align: start;
+  height: 90vh;
 }
 
 #guide-intro-welcome {
@@ -225,7 +232,7 @@ h2 {
 }
 
 .guide-footer {
-  background-color: var(--dark-grey-color);
+  background-color: var(--black-color);
   height: 15vh;
 }
 
