@@ -371,15 +371,13 @@ h2 {
   border-radius: 0;
   border: none;
   height: 24px;
-}
-
-#form-container select:invalid {
-  color: red;
+  background-color: var(--white-color);
 }
 
 #form-container .form input:focus,
 #form-container .form textarea:focus,
-#form-container .form button:focus {
+#form-container .form button:focus,
+#form-container .form select:focus {
   outline: 3px var(--lime-color) solid;
 }
 
