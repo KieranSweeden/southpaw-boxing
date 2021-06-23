@@ -195,13 +195,23 @@ h2 {
 
 /* Boxing Guide */
 
-#guide-intro-container {
-  height: 90vh;
+.guide-slide {
+  height: 70vh;
 }
 
-#guide-intro-content {
-  height: 30vh;
-  background-color: var(--light-grey-color);
+#guide-intro-welcome {
+  height: 40vh;
+  background: url(../images/boxing-guide/southpaw-image-child-posture.jpg)
+    no-repeat center/cover;
+}
+
+#guide-intro-welcome p {
+  color: var(--white-color);
+  text-align: end;
+}
+
+#guide-intro-welcome p:last-child {
+  margin: 0;
 }
 
 /* Public Sessions */
