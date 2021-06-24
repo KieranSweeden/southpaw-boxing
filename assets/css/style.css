@@ -15,6 +15,7 @@
   --dark-grey-color: #40434f;
   --light-grey-color: #d2d4db;
   --white-color: #fafffd;
+  --trans-white-color: rgba(250, 255, 253, 0.85);
   --lime-color: #c5f613;
 }
 
@@ -259,7 +260,7 @@ h2 {
 }
 
 #guide-intro-info {
-  background-color: var(--light-grey-color);
+  background-color: var(--trans-white-color);
   height: 20vh;
   border-top: 3px;
 }
@@ -285,7 +286,7 @@ h2 {
 }
 
 #why-boxing-quote-text {
-  background-color: var(--white-color);
+  background-color: var(--trans-white-color);
 }
 
 #why-boxing-quote-text p {
@@ -311,7 +312,7 @@ h2 {
 
 #why-boxing-bullet-row {
   height: 25vh;
-  background-color: var(--white-color);
+  background-color: var(--trans-white-color);
 }
 
 #why-boxing-bullet-text {
@@ -354,7 +355,7 @@ h2 {
 }
 
 #box-kick-kickboxing-row {
-  background-color: var(--white-color);
+  background-color: var(--trans-white-color);
 }
 
 #box-kick-kickboxing-row h3 {
@@ -372,7 +373,7 @@ h2 {
 
 .junior-boxing-question-row {
   height: 30vh;
-  background-color: var(--white-color);
+  background-color: var(--trans-white-color);
   padding: 0 0.5rem;
 }
 
