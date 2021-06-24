@@ -398,9 +398,10 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
   - The [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) extension was utilised to have a live, realtime preview of this README.md file.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes during the Skeleton Plane phase.
 - The [Coolors](https://coolors.co/) generator was utilised to come up with an appropriate color palette.
-- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) was used to create the Southpaw Boxing Club logo.
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) was used to create the Southpaw Boxing Club logo and compress images.
 - [WebAim](https://webaim.org/resources/contrastchecker/) was utilised to check that the colour ratio between the text and background colours met the accessibilty standards
 - [Tables Generator](https://www.tablesgenerator.com/markdown_tables) was utilised to quickly format a table for this README.
+- [Converterpoint](https://converterpoint.com/) was used to optimize videos ready for the web.
   </details>
 
 [Return to Index](#index)
@@ -431,7 +432,9 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 - Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the videos listed below:
 
-  - [This video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) was used within the private sessions section of sessions.html.
+  - [This video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) was used within the private sessions section of the [sessions.html](sessions.html) file.
+
+  - [This video](https://www.pexels.com/video/sport-child-strength-exercise-4752902/) was used within the junior boxing section of the [boxing-guide.html](boxing-guide.html) file.
 
 **Images**
 
