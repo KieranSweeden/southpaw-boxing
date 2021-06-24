@@ -223,6 +223,8 @@ h2 {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 90vh;
+
+  /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.6)
     url(../images/boxing-guide/southpaw-image-woman-ropes.jpg) no-repeat
     center/cover;
@@ -309,7 +311,16 @@ h2 {
 
 #why-boxing-bullet-row {
   height: 25vh;
-  background-color: var(--light-grey-color);
+  background-color: var(--white-color);
+}
+
+#why-boxing-bullet-text {
+  font-size: 0.95rem;
+}
+
+#why-boxing-bullet-points ul li p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
 }
 
 /* Closing Note Section */
