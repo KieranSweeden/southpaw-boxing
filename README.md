@@ -439,6 +439,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
   - [This image](https://www.pexels.com/photo/man-in-black-boxing-gloves-4752871/) was used within the intro section of boxing-guide.html.
 
+  - [This image](https://www.pexels.com/photo/topless-man-with-blue-boxing-gloves-4754131/) was used as a background image for the [boxing-guide.html](boxing-guide.html) file.
+
 - Credit to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for the images listed below:
 
   - [This image](<https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard,_1984_(cropped).jpg>) was used within the Why Boxing? section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [City of Boston Archives](https://www.flickr.com/people/48039697@N05).

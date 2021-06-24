@@ -223,12 +223,18 @@ h2 {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 90vh;
+  background: rgba(0, 0, 0, 0.6)
+    url(../images/boxing-guide/southpaw-image-woman-ropes.jpg) no-repeat
+    center/cover;
+  background-blend-mode: multiply;
 }
 
 .guide-slide {
   scroll-snap-align: start;
   height: 90vh;
 }
+
+/* Guide Intro Section */
 
 #guide-intro-welcome {
   height: 65vh;
@@ -255,6 +261,58 @@ h2 {
   height: 20vh;
   border-top: 3px;
 }
+
+/* Why Boxing Section */
+
+#why-boxing-quote-row {
+  height: 45vh;
+}
+
+#why-boxing-image,
+#why-boxing-image img {
+  height: 100%;
+}
+
+#why-boxing-image {
+  padding: 0;
+}
+
+#why-boxing-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+#why-boxing-quote-text {
+  background-color: var(--white-color);
+}
+
+#why-boxing-quote-text p {
+  color: var(--black-color);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+#why-boxing-quote-text figcaption {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+#why-boxing-challenge-row {
+  background: transparent;
+  height: 15vh;
+}
+
+#why-boxing-challenge-row p {
+  color: var(--white-color);
+  font-size: 0.9rem;
+}
+
+#why-boxing-bullet-row {
+  height: 25vh;
+  background-color: var(--light-grey-color);
+}
+
+/* Closing Note Section */
 
 .guide-footer {
   background-color: var(--black-color);
