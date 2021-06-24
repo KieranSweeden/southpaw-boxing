@@ -424,6 +424,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 - I struggled to select the last p element of the guide-intro-welcome section within boxing-guide.html. My intention was to remove the margin-bottom. After looking at [this CSS-Tricks article](https://css-tricks.com/almanac/selectors/l/last-child/), I encountered the useful :last-child pseudo-class which solved this problem.
 
+- Video playback wasn't working as expected on mobile devices, where a still snapshot of the video was present instead of the video. This was easily fixed by including the playsinline attribute within the video tag, which I found out after looking at [Tom](https://stackoverflow.com/users/7540403/tom)'s reply to [this Stack Overflow post](https://stackoverflow.com/questions/38893692/html-video-not-working-on-mobile).
+
 ### Content
 
 ### Media
