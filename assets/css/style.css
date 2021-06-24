@@ -466,7 +466,7 @@ h2 {
   margin: 0;
 }
 
-#footer-container ul li a i {
+#social-media-footer-links li a i {
   color: var(--light-grey-color);
   font-size: 1.5rem;
   padding: 0 0.75rem;
