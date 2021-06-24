@@ -323,6 +323,51 @@ h2 {
   font-size: 0.95rem;
 }
 
+/* Boxing & Kickboxing Section */
+
+#box-kick-container h3 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#box-kick-boxing-row,
+#box-kick-kickboxing-row {
+  height: 42.5vh;
+  padding: 0.5rem;
+  position: relative;
+}
+
+#box-kick-boxing-row {
+  background-color: transparent;
+}
+
+#box-kick-boxing-row h3 {
+  top: 0.5rem;
+  right: 0.7rem;
+  color: var(--white-color);
+}
+
+#box-kick-boxing-row p {
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+
+#box-kick-kickboxing-row {
+  background-color: var(--white-color);
+}
+
+#box-kick-kickboxing-row h3 {
+  top: 0.5rem;
+  left: 0.7rem;
+  color: var(--black-color);
+}
+
+#box-kick-kickboxing-row p {
+  text-align: right;
+  margin-bottom: 0;
+}
+
 /* Closing Note Section */
 
 .guide-footer {
