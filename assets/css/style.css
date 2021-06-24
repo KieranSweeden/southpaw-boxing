@@ -368,6 +368,46 @@ h2 {
   margin-bottom: 0;
 }
 
+/* Junior Boxing Section */
+
+.junior-boxing-question-row {
+  height: 30vh;
+  background-color: var(--white-color);
+  padding: 0 0.5rem;
+}
+
+.junior-boxing-question-row .col-12 {
+  position: relative;
+}
+
+.junior-boxing-question-row h3 {
+  position: absolute;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1rem;
+  top: 0.5rem;
+  right: 0.7rem;
+  color: var(--black-color);
+}
+
+.junior-boxing-question-row p {
+  font-size: 0.95rem;
+}
+
+.junior-boxing-question-row p a {
+  color: var(--dark-grey-color);
+}
+
+.junior-boxing-question-row p a:hover,
+.junior-boxing-question-row p a:focus,
+.junior-boxing-question-row p a:active {
+  color: var(--lime-color);
+}
+
+#junior-boxing-video-row {
+  height: 25vh;
+}
+
 /* Closing Note Section */
 
 .guide-footer {
