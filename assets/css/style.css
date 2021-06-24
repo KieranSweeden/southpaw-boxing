@@ -50,6 +50,20 @@ body {
   outline: 4px var(--lime-color) solid;
 }
 
+.btn-dark {
+  background-color: var(--dark-grey-color);
+  color: var(--white-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+  background-color: var(--dark-grey-color);
+  color: var(--white-color);
+  outline: 4px var(--lime-color) solid;
+}
+
 /* Navigation */
 
 #main-nav {
@@ -181,6 +195,29 @@ h2 {
 }
 
 /* Boxing Guide */
+
+#guide-dropdown-btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.dropdown .dropdown-menu {
+  width: 100%;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--white-color);
+  background-color: var(--dark-grey-color);
+}
 
 #boxing-guide-container {
   scroll-snap-type: y mandatory;
