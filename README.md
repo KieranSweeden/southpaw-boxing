@@ -427,12 +427,21 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 ### Media
 
-- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the images listed below:
+**Videos**
+
+- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the videos listed below:
 
   - [This video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) was used within the private sessions section of sessions.html.
 
-- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the videos listed below:
+**Images**
+
+- Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the images listed below:
+
   - [This image](https://www.pexels.com/photo/man-in-black-boxing-gloves-4752871/) was used within the intro section of boxing-guide.html.
+
+- Credit to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for the images listed below:
+
+  - [This image](<https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard,_1984_(cropped).jpg>) was used within the Why Boxing? section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [City of Boston Archives](https://www.flickr.com/people/48039697@N05).
 
 [Return to Index](#index)
 

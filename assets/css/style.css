@@ -231,10 +231,10 @@ h2 {
 }
 
 #guide-intro-welcome {
-  height: 40vh;
+  height: 65vh;
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.6)
     url(../images/boxing-guide/southpaw-image-child-posture.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
@@ -252,30 +252,13 @@ h2 {
 
 #guide-intro-info {
   background-color: var(--light-grey-color);
-  height: 35vh;
+  height: 20vh;
+  border-top: 3px;
 }
 
 .guide-footer {
   background-color: var(--black-color);
   height: 10vh;
-}
-
-#guide-footer-social-links {
-  list-style: none;
-  margin: 0 !important;
-}
-
-#guide-footer-social-links li a i {
-  color: var(--light-grey-color);
-  font-size: 1.5rem;
-  padding: 0 0.75rem;
-  cursor: pointer;
-  transition: color 200ms ease-in-out;
-  margin: 0.3rem 0 0 0;
-}
-
-#guide-footer-social-links li i:hover {
-  color: var(--lime-color);
 }
 
 /* Public Sessions */
