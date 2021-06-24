@@ -406,6 +406,17 @@ h2 {
 
 #junior-boxing-video-row {
   height: 25vh;
+  padding: 0;
+  position: relative;
+}
+
+#junior-boxing-video-row video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Closing Note Section */
