@@ -206,6 +206,7 @@ h2 {
 .dropdown .dropdown-menu {
   width: 100%;
   border-radius: 0;
+  transform: translate(0px, 46px) !important;
 }
 
 .dropdown-item {
@@ -392,7 +393,9 @@ h2 {
 }
 
 .junior-boxing-question-row p {
-  font-size: 0.95rem;
+  /* font-size: 0.95rem; */
+  font-size: clamp(0.9rem, 4vw, 1.1rem);
+  margin-bottom: 0.8rem;
 }
 
 .junior-boxing-question-row p a {
@@ -419,6 +422,8 @@ h2 {
   width: 100%;
   object-fit: cover;
 }
+
+/* Clothing Section */
 
 /* Closing Note Section */
 
