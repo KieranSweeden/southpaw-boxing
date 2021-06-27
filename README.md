@@ -450,6 +450,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
   - [This image](<https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard,_1984_(cropped).jpg>) was used within the Why Boxing? section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [City of Boston Archives](https://www.flickr.com/people/48039697@N05).
 
+  - [This image](https://commons.wikimedia.org/wiki/File:Muhammad_Ali_1966.jpg) was used within the Closing Note section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [Dutch National Archives](https://www.nationaalarchief.nl/en/research).
+
 [Return to Index](#index)
 
 ## Acknowledgements
