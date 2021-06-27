@@ -432,6 +432,56 @@ h2 {
 
 /* Clothing Section */
 
+#clothing-note-row,
+#clothing-top-row,
+#clothing-bottom-row {
+  position: relative;
+}
+
+#clothing-note-row {
+  height: 15vh;
+}
+
+#clothing-note-row p,
+#clothing-bottom-row p {
+  color: var(--white-color);
+  font-size: var(--responsive-text);
+  margin-bottom: 0;
+}
+
+#clothing-top-row {
+  background-color: var(--trans-white-color);
+  height: 35vh;
+}
+
+#clothing-top-row h3 {
+  position: absolute;
+  color: var(--black-color);
+  top: 0.5rem;
+  right: 0.7rem;
+}
+
+#clothing-top-row p {
+  font-size: var(--responsive-text);
+  margin-bottom: 0;
+}
+
+#clothing-bottom-row {
+  height: 35vh;
+}
+
+#clothing-bottom-row h3 {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.7rem;
+  color: var(--white-color);
+}
+
+#clothing-bottom-row p {
+  font-size: var(--responsive-text);
+  margin-bottom: 0;
+}
+
 /* Closing Note Section */
 
 .guide-footer {
