@@ -11,23 +11,38 @@
 </head>
 <body>
   
-  <!-- Navigation Start -->
-  <nav id="main-nav" class="container-fluid" aria-label="main navigation">
-    <div class="container" id="nav-container">
-      <a id="southpaw-abbreviated-logo" href="index.html"><abbr title="Southpaw Boxing Club">S</abbr></a>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" href="boxing-guide.html">Guide</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="sessions.html">Sessions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+  <div class="container-fluid d-flex flex-column justify-content-center align-items-center" id="home-container">
+    <div id="video-bg">
+      <video src="assets/videos/southpaw-video-woman-tutor.mp4" playsinline autoplay loop type="video/mp4">Your browser does not support HTML5 video.</video>
     </div>
-  </nav>
+    <img src="assets/images/southpaw-logo.png" alt="The Southpaw Boxing Club logo.">
+    <p>Get started by checking out the Southpaw Boxing Guide!</p>
+    <a href="boxing-guide.html" class="btn btn-light">Boxing Guide</a>
+    <p>Get involved and learn about our public & private sessions!</p>
+    <a href="sessions.html" class="btn btn-light">Sessions</a>
+    <p>Get in touch via our contact form or give us a call!</p>
+    <a href="contact.html" class="btn btn-light">Contact</a>
+    <ul id="social-media-footer-links">
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+
   
   <!-- Bootstrap 5 JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

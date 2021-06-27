@@ -161,6 +161,69 @@ body {
   width: 100%;
 }
 
+/* Home Page */
+
+#home-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+#video-bg {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  position: absolute;
+}
+
+#video-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#video-bg video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#home-container img {
+  height: 60px;
+  width: 60%;
+  z-index: 1;
+}
+
+#home-container p {
+  color: var(--white-color);
+  font-size: var(--responsive-text);
+  width: 75%;
+  text-align: center;
+  margin: 2rem 0 0.5rem 0;
+  z-index: 1;
+}
+
+#home-container a {
+  z-index: 1;
+}
+
+#home-container ul {
+  margin-top: 1.5rem;
+}
+
+#home-container ul li {
+  z-index: 3;
+}
+
 /* Header */
 
 .header-container {
