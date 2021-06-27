@@ -484,6 +484,49 @@ h2 {
 
 /* Closing Note Section */
 
+#closing-note-image {
+  height: 27.5vh;
+  padding: 0;
+}
+
+#closing-note-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#closing-note-quote-text {
+  height: 12.5vh;
+}
+
+#closing-note-quote-text {
+  color: var(--white-color);
+  font-size: var(--responsive-text);
+}
+
+#closing-note-quote-text p {
+  margin-bottom: 0.2rem;
+}
+
+#closing-note-quote-text figcaption {
+  font-size: var(--responsive-text);
+}
+
+#closing-note-session-row {
+  font-size: var(--responsive-text);
+  color: var(--black-color);
+  background-color: var(--white-color);
+  height: 15vh;
+}
+
+#closing-note-contact-row {
+  font-size: var(--responsive-text);
+  color: var(--white-color);
+  height: 20vh;
+}
+
+/* Guide Footer */
+
 .guide-footer {
   background-color: var(--black-color);
   height: 10vh;
