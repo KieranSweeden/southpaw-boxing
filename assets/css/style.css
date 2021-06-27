@@ -17,6 +17,7 @@
   --white-color: #fafffd;
   --trans-white-color: rgba(250, 255, 253, 0.85);
   --lime-color: #c5f613;
+  --responsive-text: clamp(0.9rem, 4vw, 1.1rem);
 }
 
 body {
@@ -206,7 +207,6 @@ h2 {
 .dropdown .dropdown-menu {
   width: 100%;
   border-radius: 0;
-  transform: translate(0px, 46px) !important;
 }
 
 .dropdown-item {
@@ -253,6 +253,7 @@ h2 {
 #guide-intro-welcome p {
   color: var(--white-color);
   text-align: end;
+  font-size: var(--responsive-text);
 }
 
 #guide-intro-welcome p:last-child,
@@ -264,6 +265,10 @@ h2 {
   background-color: var(--trans-white-color);
   height: 20vh;
   border-top: 3px;
+}
+
+#guide-intro-info p {
+  font-size: var(--responsive-text);
 }
 
 /* Why Boxing Section */
@@ -293,7 +298,7 @@ h2 {
 #why-boxing-quote-text p {
   color: var(--black-color);
   margin-bottom: 0.5rem;
-  font-size: 0.95rem;
+  font-size: var(--responsive-text);
 }
 
 #why-boxing-quote-text figcaption {
@@ -308,7 +313,7 @@ h2 {
 
 #why-boxing-challenge-row p {
   color: var(--white-color);
-  font-size: 0.9rem;
+  font-size: var(--responsive-text);
 }
 
 #why-boxing-bullet-row {
@@ -317,12 +322,12 @@ h2 {
 }
 
 #why-boxing-bullet-text {
-  font-size: 0.95rem;
+  font-size: var(--responsive-text);
 }
 
 #why-boxing-bullet-points ul li p {
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  font-size: var(--responsive-text);
 }
 
 /* Boxing & Kickboxing Section */
@@ -353,6 +358,7 @@ h2 {
 #box-kick-boxing-row p {
   color: var(--white-color);
   margin-bottom: 0;
+  font-size: var(--responsive-text);
 }
 
 #box-kick-kickboxing-row {
@@ -368,6 +374,7 @@ h2 {
 #box-kick-kickboxing-row p {
   text-align: right;
   margin-bottom: 0;
+  font-size: var(--responsive-text);
 }
 
 /* Junior Boxing Section */
@@ -394,7 +401,7 @@ h2 {
 
 .junior-boxing-question-row p {
   /* font-size: 0.95rem; */
-  font-size: clamp(0.9rem, 4vw, 1.1rem);
+  font-size: var(--responsive-text);
   margin-bottom: 0.8rem;
 }
 
@@ -457,6 +464,7 @@ h2 {
 .public-session-info p {
   margin-bottom: 0;
   letter-spacing: 0.25px;
+  font-size: var(--responsive-text);
 }
 
 .public-session-times {
@@ -514,10 +522,15 @@ h2 {
 #private-session-info p {
   margin-bottom: 0;
   letter-spacing: 0.25px;
+  font-size: var(--responsive-text);
 }
 
 #session-contact-container {
   height: 10vh;
+}
+
+#session-contact-questions p {
+  font-size: var(--responsive-text);
 }
 
 #private-price-container {
@@ -527,6 +540,7 @@ h2 {
 #private-price-container p {
   color: var(--black-color);
   letter-spacing: 0.8px;
+  font-size: var(--responsive-text);
 }
 
 /* Form */
