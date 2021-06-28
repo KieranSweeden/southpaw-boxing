@@ -448,6 +448,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
   - [This image](https://www.pexels.com/photo/man-in-black-shirt-and-pants-sitting-on-exercise-equipment-4761785/) was used within the boxing & kickboxing section of the [boxing-guide.html](boxing-guide.html) file.
 
+  - [This image](https://www.pexels.com/photo/woman-in-black-sports-bra-and-black-leggings-doing-exercise-4754119/) was used within the boxing & kickboxing section of the [boxing-guide.html](boxing-guide.html) file.
+
 - Credit to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for the images listed below:
 
   - [This image](<https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard,_1984_(cropped).jpg>) was used within the Why Boxing? section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [City of Boston Archives](https://www.flickr.com/people/48039697@N05).

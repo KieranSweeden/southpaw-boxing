@@ -327,7 +327,7 @@ h2,
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)
-    url(../images/boxing-guide/southpaw-image-woman-ropes.jpg) no-repeat
+    url(../images/boxing-guide/southpaw-image-woman-close.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
 }
@@ -383,6 +383,11 @@ h2,
 .modal-body img {
   width: 100%;
   object-fit: cover;
+}
+
+.modal-body a {
+  color: var(--black-color);
+  text-decoration-color: var(--light-grey-color);
 }
 
 .modal-footer {
