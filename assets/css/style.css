@@ -326,6 +326,7 @@ h2,
 .guide-slide {
   scroll-snap-align: start;
   height: 90vh;
+  overflow: hidden;
 }
 
 /* Modal Styling */
