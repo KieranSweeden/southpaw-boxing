@@ -17,7 +17,7 @@
   --white-color: #fafffd;
   --trans-white-color: rgba(250, 255, 253, 0.85);
   --lime-color: #c5f613;
-  --responsive-text: clamp(0.9rem, 4vw, 1.1rem);
+  --responsive-text: clamp(0.9rem, 2.3vh, 1.1rem);
 }
 
 body {
@@ -427,20 +427,17 @@ h2,
 }
 
 #why-boxing-button {
-  padding: 0;
   position: absolute;
   right: 0;
   bottom: 50%;
   transform: translateY(50%);
+  width: auto;
 }
 
-#why-boxing-bullet-text {
+#why-boxing-bullet-text p {
   font-size: var(--responsive-text);
-}
-
-#why-boxing-bullet-points ul li p {
-  margin-bottom: 0.3rem;
-  font-size: var(--responsive-text);
+  width: 65%;
+  margin-bottom: 0;
 }
 
 /* Boxing & Kickboxing Section */
