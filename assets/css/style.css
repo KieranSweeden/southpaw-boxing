@@ -463,6 +463,13 @@ h2,
   color: var(--white-color);
   margin-bottom: 0;
   font-size: var(--responsive-text);
+  text-align: right;
+}
+
+#box-kick-boxing-row button {
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
 }
 
 #box-kick-kickboxing-row {
@@ -476,9 +483,15 @@ h2,
 }
 
 #box-kick-kickboxing-row p {
-  text-align: right;
+  text-align: left;
   margin-bottom: 0;
   font-size: var(--responsive-text);
+}
+
+#box-kick-kickboxing-row button {
+  position: absolute;
+  right: 0;
+  bottom: 0.5rem;
 }
 
 /* Junior Boxing Section */
