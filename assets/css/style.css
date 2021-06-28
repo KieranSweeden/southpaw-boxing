@@ -319,7 +319,7 @@ h2,
   height: 90vh;
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
-  background: rgba(0, 0, 0, 0.6)
+  background: rgba(0, 0, 0, 0.75)
     url(../images/boxing-guide/southpaw-image-woman-ropes.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
