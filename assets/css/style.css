@@ -230,7 +230,7 @@ body {
   background-color: var(--dark-grey-color);
   height: 5vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -265,6 +265,10 @@ h2 {
   width: 100%;
   text-transform: uppercase;
   font-size: 1.1rem;
+}
+
+#guide-dropdown-btn.show {
+  background-color: var(--dark-grey-color);
 }
 
 .dropdown .dropdown-menu {
@@ -723,7 +727,7 @@ h2 {
 #form-call-to-action {
   color: var(--white-color);
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 #form-container .form label {
