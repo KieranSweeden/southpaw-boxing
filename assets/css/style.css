@@ -185,7 +185,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #video-bg video {
@@ -198,9 +198,9 @@ body {
 }
 
 #home-container img {
-  height: 60px;
-  width: 60%;
+  max-width: 70%;
   z-index: 1;
+  object-fit: cover;
 }
 
 #home-container p {
@@ -313,9 +313,13 @@ h2 {
   background-blend-mode: multiply;
 }
 
-#guide-intro-welcome p {
+#guide-intro-welcome img {
+  object-fit: cover;
+  max-width: 70%;
+}
+
+#guide-intro-welcome-text p {
   color: var(--white-color);
-  text-align: end;
   font-size: var(--responsive-text);
 }
 
