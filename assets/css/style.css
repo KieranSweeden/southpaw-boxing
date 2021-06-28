@@ -17,7 +17,8 @@
   --white-color: #fafffd;
   --trans-white-color: rgba(250, 255, 253, 0.85);
   --lime-color: #c5f613;
-  --responsive-text: clamp(0.9rem, 2.3vh, 1.1rem);
+  --responsive-headings: clamp(1rem, 2.8vh, 2rem);
+  --responsive-text: clamp(0.9rem, 2.5vh, 1.1rem);
 }
 
 body {
@@ -516,16 +517,16 @@ h2,
   position: absolute;
   font-style: italic;
   font-weight: bold;
-  font-size: 1rem;
-  top: 0.5rem;
+  font-size: var(--responsive-headings);
+  top: 0.7rem;
   right: 0.7rem;
   color: var(--black-color);
 }
 
 .junior-boxing-question-row p {
-  /* font-size: 0.95rem; */
   font-size: var(--responsive-text);
-  margin-bottom: 0.8rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
 }
 
 .junior-boxing-question-row p a {
