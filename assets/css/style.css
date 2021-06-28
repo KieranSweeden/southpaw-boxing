@@ -534,6 +534,14 @@ h2,
   object-fit: cover;
 }
 
+#junior-boxing-video-row button {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
 /* Clothing Section */
 
 #clothing-note-row,
