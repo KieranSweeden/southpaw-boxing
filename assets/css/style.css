@@ -358,8 +358,10 @@ h2,
   color: var(--white-color);
 }
 
-.modal-header .btn-close {
-  color: var(--white-color);
+.btn-modal-close:hover,
+.btn-modal-close:active,
+.btn-modal-close:focus {
+  color: var(--lime-color);
 }
 
 .modal-body {
