@@ -423,6 +423,15 @@ h2,
 #why-boxing-bullet-row {
   height: 25vh;
   background-color: var(--trans-white-color);
+  position: relative;
+}
+
+#why-boxing-button {
+  padding: 0;
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  transform: translateY(50%);
 }
 
 #why-boxing-bullet-text {
@@ -469,7 +478,7 @@ h2,
 #box-kick-boxing-row button {
   position: absolute;
   left: 0;
-  bottom: 0.5rem;
+  bottom: 0.8rem;
 }
 
 #box-kick-kickboxing-row {
@@ -491,7 +500,7 @@ h2,
 #box-kick-kickboxing-row button {
   position: absolute;
   right: 0;
-  bottom: 0.5rem;
+  bottom: 0.8rem;
 }
 
 /* Junior Boxing Section */
