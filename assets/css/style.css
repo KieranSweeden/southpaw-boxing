@@ -390,6 +390,12 @@ h2,
   text-decoration-color: var(--light-grey -color);
 }
 
+.modal-body .faq-question {
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+}
+
 .modal-footer {
   display: flex;
   flex-direction: column;
