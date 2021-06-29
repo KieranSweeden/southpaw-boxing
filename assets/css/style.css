@@ -387,7 +387,7 @@ h2,
 
 .modal-body a {
   color: var(--black-color);
-  text-decoration-color: var(--light-grey-color);
+  text-decoration-color: var(--light-grey -color);
 }
 
 .modal-footer {
