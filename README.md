@@ -442,7 +442,7 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 - Credit to [cottonbro](https://www.pexels.com/@cottonbro) for the images listed below:
 
-  - [This image](https://www.pexels.com/photo/man-in-black-boxing-gloves-4752871/) was used within the intro section of boxing-guide.html.
+  - [This image](https://www.pexels.com/photo/man-in-black-boxing-gloves-4752871/) was used within the intro section of the [boxing-guide.html](boxing-guide.html) file.
 
   - [This image](https://www.pexels.com/photo/topless-man-with-blue-boxing-gloves-4754131/) was used as a background image for the [boxing-guide.html](boxing-guide.html) file.
 
@@ -450,7 +450,9 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
   - [This image](https://www.pexels.com/photo/woman-in-black-sports-bra-and-black-leggings-doing-exercise-4754119/) was used within the boxing & kickboxing section of the [boxing-guide.html](boxing-guide.html) file.
 
-  - [This image](https://www.pexels.com/photo/man-in-black-t-shirt-holding-white-ceramic-mug-4754143/) was used with the boxing & kickboxing section of the [boxing-guide.html](boxing-guide.html) file.
+  - [This image](https://www.pexels.com/photo/man-in-black-t-shirt-holding-white-ceramic-mug-4754143/) was used within the boxing & kickboxing section of the [boxing-guide.html](boxing-guide.html) file.
+
+  - [This image](https://www.pexels.com/photo/woman-in-gray-tank-top-and-black-leggings-4754002/) was used within the clothing section of the [boxing-guide.html](boxing-guide.html) file.
 
 - Credit to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for the images listed below:
 
