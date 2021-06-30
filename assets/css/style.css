@@ -818,7 +818,7 @@ h2,
   background-color: var(--white-color);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #public-session-container {
     height: 80vh;
   }
@@ -832,7 +832,7 @@ h2,
   height: 42.5vh;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .public-session-row {
     height: 37.5vh;
   }
@@ -914,12 +914,6 @@ h2,
   height: 80vh;
 }
 
-/* @media (min-width: 992px) {
-  #private-session-container {
-    height: 80vh;
-  }
-} */
-
 #private-session-video {
   height: 25vh;
   background-color: var(--light-grey-color);
@@ -942,20 +936,32 @@ h2,
   padding: 0;
 }
 
+@media (min-width: 768px) {
+  #private-session-info {
+    height: 35vh;
+  }
+}
+
 @media (min-width: 992px) {
+  #private-session-info {
+    height: 45vh;
+  }
+}
+
+@media (min-width: 1200px) {
   #private-session-info {
     height: 35vh;
   }
 }
 
 #private-session-info p {
-  margin: 0.5rem;
+  margin: 0.2rem;
   letter-spacing: 0.25px;
   font-size: var(--responsive-text);
 }
 
 .private-session-image {
-  height: 50%;
+  height: 40%;
   width: 100%;
 }
 
