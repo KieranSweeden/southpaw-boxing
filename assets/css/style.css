@@ -376,6 +376,7 @@ h2,
 }
 
 #boxing-guide-container {
+  padding: 0;
   scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 90vh;
@@ -640,7 +641,7 @@ h2,
   #box-kick-kickboxing-row p {
     width: 75%;
     text-align: left;
-    margin-bottom: 2rem;
+    margin: 1.5rem 1rem;
   }
 
   #box-kick-boxing-row h3 {
