@@ -635,6 +635,25 @@ h2,
   bottom: 0.8rem;
 }
 
+@media (min-width: 768px) {
+  #box-kick-boxing-row p,
+  #box-kick-kickboxing-row p {
+    width: 75%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  #box-kick-boxing-row h3 {
+    top: 0.5rem;
+    left: 0.7rem;
+  }
+
+  #box-kick-boxing-row button {
+    left: auto;
+    right: 0;
+  }
+}
+
 /* Junior Boxing Section */
 
 .junior-boxing-question-row {
