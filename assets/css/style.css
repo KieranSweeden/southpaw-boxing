@@ -23,6 +23,7 @@
 
 body {
   font-family: Raleway, sans-serif;
+  background: var(--light-grey-color);
 }
 
 /* Utilities */
@@ -817,19 +818,16 @@ h2,
   background-color: var(--white-color);
 }
 
-#public-session-container .row {
-  height: 50%;
-}
-
 #public-session-container address {
   margin-bottom: 0.5rem;
 }
 
+.public-session-row {
+  height: calc(50% - 2.5vh);
+}
+
 .public-session-info {
   background-color: var(--white-color);
-  text-align: left;
-  justify-content: center;
-  align-items: center;
 }
 
 .public-session-info p {
@@ -888,6 +886,7 @@ h2,
 
 #private-session-info {
   height: 35vh;
+  background-color: var(--white-color);
 }
 
 #private-session-info p {
@@ -905,7 +904,7 @@ h2,
 }
 
 #private-price-container {
-  background-color: var(--light-grey-color);
+  background-color: var(--white-color);
 }
 
 #private-price-container p {
