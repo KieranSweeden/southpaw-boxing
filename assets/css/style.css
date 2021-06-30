@@ -819,7 +819,9 @@ h2,
 }
 
 @media (min-width: 992px) {
-  height: 80vh;
+  #public-session-container {
+    height: 80vh;
+  }
 }
 
 #public-session-container address {
@@ -827,11 +829,18 @@ h2,
 }
 
 .public-session-row {
-  height: calc(50% - 2.5vh);
+  height: 42.5vh;
+}
+
+@media (min-width: 992px) {
+  .public-session-row {
+    height: 37.5vh;
+  }
 }
 
 .public-session-info {
   background-color: var(--white-color);
+  height: 100%;
   padding: 0;
 }
 
@@ -853,10 +862,24 @@ h2,
 
 .session-image {
   height: 40%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .session-image {
+    height: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .session-image {
+    height: 40%;
+  }
 }
 
 .public-session-times {
   background-color: var(--black-color);
+  height: 100%;
 }
 
 .public-session-times h3,
@@ -887,6 +910,16 @@ h2,
 
 /* Private Sessions */
 
+#private-session-container {
+  height: 80vh;
+}
+
+/* @media (min-width: 992px) {
+  #private-session-container {
+    height: 80vh;
+  }
+} */
+
 #private-session-video {
   height: 25vh;
   background-color: var(--light-grey-color);
@@ -906,12 +939,30 @@ h2,
 #private-session-info {
   height: 35vh;
   background-color: var(--white-color);
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  #private-session-info {
+    height: 35vh;
+  }
 }
 
 #private-session-info p {
-  margin-bottom: 0;
+  margin: 0.5rem;
   letter-spacing: 0.25px;
   font-size: var(--responsive-text);
+}
+
+.private-session-image {
+  height: 50%;
+  width: 100%;
+}
+
+.private-session-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #session-contact-container {
