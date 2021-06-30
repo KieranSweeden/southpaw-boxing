@@ -460,6 +460,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
   - [This image](https://www.pexels.com/photo/man-in-white-tank-top-and-black-pants-sitting-on-white-bench-4761611/) was used within the clothing section of the [boxing-guide.html](boxing-guide.html) file.
 
+  - [This image](https://www.pexels.com/photo/woman-in-gray-shirt-and-blue-denim-jeans-sitting-on-black-and-yellow-stairs-4752835/) was used in public sessions section of the [sessions.html](sessions.html) file.
+
 - Credit to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for the images listed below:
 
   - [This image](<https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard,_1984_(cropped).jpg>) was used within the Why Boxing? section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [City of Boston Archives](https://www.flickr.com/people/48039697@N05).
