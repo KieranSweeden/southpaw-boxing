@@ -26,6 +26,10 @@ body {
   background: var(--light-grey-color);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Utilities */
 
 .container-fluid {
@@ -380,12 +384,22 @@ h2,
   scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 90vh;
+  scroll-behavior: smooth;
+
+  /* Hide scrollbar for IE, Edge & Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)
     url(../images/boxing-guide/southpaw-image-woman-close.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
+}
+
+/* Hide scrollbar for Chrome, Safari & Opera */
+#boxing-guide-container::-webkit-scrollbar {
+  display: none;
 }
 
 .guide-slide {

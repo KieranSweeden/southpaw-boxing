@@ -426,6 +426,8 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 - Video playback wasn't working as expected on mobile devices, where a still snapshot of the video was present instead of the video. This was easily fixed by including the playsinline attribute within the video tag, which I found out after looking at [Tom](https://stackoverflow.com/users/7540403/tom)'s reply to [this Stack Overflow post](https://stackoverflow.com/questions/38893692/html-video-not-working-on-mobile).
 
+- I used [this tutorial](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) by [W3Schools](https://www.w3schools.com/) in order to hide the scrollbar but maintain the scroll functionality for the popular browsers.
+
 ### Content
 
 ### Media
