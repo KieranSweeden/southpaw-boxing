@@ -148,7 +148,7 @@ html {
 #southpaw-logo img {
   width: 100%;
   height: 100%;
-  object-fit: center;
+  object-fit: cover;
 }
 
 #southpaw-abbreviated-logo {
@@ -388,7 +388,7 @@ h2,
 
   /* Hide scrollbar for IE, Edge & Firefox */
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)
@@ -463,7 +463,7 @@ h2,
 
 .modal-body a {
   color: var(--black-color);
-  text-decoration-color: var(--light-grey -color);
+  text-decoration-color: var(--light-grey-color);
 }
 
 .modal-body .faq-question {
