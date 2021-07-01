@@ -792,6 +792,28 @@ h2,
   transform: translateY(-50%);
 }
 
+@media (min-width: 768px) {
+  .junior-boxing-question-row {
+    height: 35vh;
+  }
+
+  .junior-boxing-question-row h3 {
+    position: relative;
+    text-align: center;
+    width: 80%;
+  }
+
+  .junior-boxing-question-row p {
+    width: 85%;
+  }
+
+  #junior-boxing-video-row {
+    height: 15vh;
+    padding: 0;
+    position: relative;
+  }
+}
+
 /* Clothing Section */
 
 #clothing-note-row,
