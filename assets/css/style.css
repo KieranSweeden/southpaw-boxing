@@ -239,14 +239,14 @@ html {
   overflow: hidden;
 }
 
-#video-bg {
+.video-bg {
   height: 100%;
   width: 100%;
   padding: 0;
   position: absolute;
 }
 
-#video-bg::after {
+.video-bg::after {
   content: "";
   position: absolute;
   top: 0;
@@ -256,7 +256,7 @@ html {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#video-bg video {
+.video-bg video {
   height: 100%;
   width: 100%;
   object-fit: cover;
