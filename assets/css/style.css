@@ -402,6 +402,12 @@ h2,
   display: none;
 }
 
+@media (min-width: 1200px) {
+  #boxing-guide-container {
+    height: 80vh;
+  }
+}
+
 .guide-slide {
   scroll-snap-align: start;
   height: 90vh;
@@ -521,6 +527,12 @@ h2,
   }
 }
 
+@media (min-width: 1200px) {
+  #guide-intro-welcome {
+    height: 65vh;
+  }
+}
+
 #guide-intro-buttons {
   height: 100%;
 }
@@ -627,6 +639,21 @@ h2,
   object-fit: cover;
 }
 
+@media (min-width: 1200px) {
+  #why-boxing-quote-row {
+    height: 32.5vh;
+  }
+  #why-boxing-challege-row {
+    height: 7.5vh;
+  }
+  #why-boxing-bullet-row {
+    height: 10vh;
+  }
+  #why-boxing-paragraph-row {
+    height: 22.5vh;
+  }
+}
+
 /* Boxing & Kickboxing Section */
 
 #box-kick-container h3 {
@@ -731,6 +758,15 @@ h2,
   }
 }
 
+@media (min-width: 1200px) {
+  #box-kick-boxing-row {
+    height: 37.5vh;
+  }
+  #box-kick-kickboxing-row {
+    height: 37.5vh;
+  }
+}
+
 /* Junior Boxing Section */
 
 .junior-boxing-question-row {
@@ -814,6 +850,12 @@ h2,
   }
 }
 
+@media (min-width: 1200px) {
+  .junior-boxing-question-row {
+    height: 30vh;
+  }
+}
+
 /* Clothing Section */
 
 #clothing-note-row,
@@ -879,6 +921,35 @@ h2,
   bottom: 0.7rem;
 }
 
+#clothing-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  #clothing-note-row {
+    height: 10vh;
+  }
+
+  #clothing-top-row,
+  #clothing-bottom-row {
+    height: 37.5vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #clothing-note-row {
+    height: 7.5vh;
+  }
+  #clothing-top-row {
+    height: 33.75vh;
+  }
+  #clothing-bottom-row {
+    height: 33.75vh;
+  }
+}
+
 /* Closing Note Section */
 
 #closing-note-image {
@@ -920,6 +991,16 @@ h2,
   font-size: var(--responsive-text);
   color: var(--white-color);
   height: 20vh;
+}
+
+#closing-note-child {
+  width: 50%;
+  height: 100%;
+}
+
+#closing-note-child img {
+  width: 100%;
+  object-fit: center/cover;
 }
 
 /* Guide Footer */
@@ -1266,4 +1347,10 @@ h2,
 
 #footer-container i:hover {
   color: var(--lime-color);
+}
+
+@media (min-width: 1200px) {
+  .guide-slide {
+    height: 80vh;
+  }
 }
