@@ -1010,6 +1010,11 @@ h2,
   height: 10vh;
 }
 
+.guide-footer p {
+  color: var(--light-grey-color);
+  margin-bottom: 0;
+}
+
 /* Public Sessions */
 
 #public-session-container {
