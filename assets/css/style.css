@@ -352,13 +352,13 @@ h2,
 
 /* Boxing Guide */
 
-#guide-dropdown-btn {
+.guide-dropdown-btn {
   width: 100%;
   text-transform: uppercase;
   font-size: 1.1rem;
 }
 
-#guide-dropdown-btn.show {
+.guide-dropdown-btn.show {
   background-color: var(--dark-grey-color);
 }
 
@@ -1344,7 +1344,7 @@ h2,
   margin-bottom: 0;
 }
 
-#social-media-footer-links {
+.social-media-footer-links {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -1353,7 +1353,7 @@ h2,
   margin: 0;
 }
 
-#social-media-footer-links li a i {
+.social-media-footer-links li a i {
   color: var(--light-grey-color);
   font-size: 1.5rem;
   padding: 0 0.75rem;

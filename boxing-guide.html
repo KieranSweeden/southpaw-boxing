@@ -47,10 +47,10 @@
 
       <!-- Guide Intro Dropdown -->
       <header class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle header-container" type="button" id="guide-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
-          Guide Intro
+        <button class="btn btn-secondary dropdown-toggle header-container guide-dropdown-btn" type="button" id="guide-intro-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+        Guide Intro
         </button>
-        <ul class="dropdown-menu" aria-labelledby="guide-dropdown-btn">
+        <ul class="dropdown-menu" aria-labelledby="guide-intro-dropdown-btn">
           <li><a class="dropdown-item active" href="#guide-intro-container">Guide Intro</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#guide-why-boxing-container">Why Boxing?</a></li>
@@ -66,7 +66,7 @@
       </header>
   
       <!-- Guide Intro Content -->
-      <section id="guide-intro-welcome" class="d-flex flex-column justify-content-around align-items-center p-3">
+      <div id="guide-intro-welcome" class="d-flex flex-column justify-content-around align-items-center p-3">
           <img src="assets/images/southpaw-logo.png" alt="The Southpaw Boxing Club logo.">
           <div id="guide-intro-welcome-text" class="text-center">
             <p>If you're new, this guide is for you.</p>
@@ -75,9 +75,9 @@
             <i class="fas fa-angle-double-down"></i>
             <p class="text-center m-0">Scroll to Begin</p>
           </div>
-      </section>
+      </div>
   
-      <section id="guide-intro-info" class="container-fluid">
+      <div id="guide-intro-info" class="container-fluid">
         <div id="guide-intro-buttons" class="row p-2">
           <div class="col-12 col-sm-6 btn-column d-flex justify-content-evenly align-items-center">
             <div class="w-50 btn-container d-flex justify-content-evenly align-items-center">
@@ -96,7 +96,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </section>
 
     <!-- Why Boxing Section -->
@@ -104,10 +104,10 @@
 
       <!-- Why Boxing Dropdown -->
       <header class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle header-container" type="button" id="guide-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle header-container guide-dropdown-btn" type="button" id="guide-why-boxing-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
           Why Boxing?
         </button>
-        <ul class="dropdown-menu" aria-labelledby="guide-dropdown-btn">
+        <ul class="dropdown-menu" aria-labelledby="guide-why-boxing-dropdown-btn">
           <li><a class="dropdown-item" href="#guide-intro-container">Guide Intro</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item active" href="#guide-why-boxing-container">Why Boxing?</a></li>
@@ -184,7 +184,7 @@
               <p>
                 If you're not convinced just yet, here's a video from the <a href="https://www.youtube.com/channel/UC4PwJo76WpTOk-3N8dazt1A">Precision Striking</a> YouTube channel, where they provide 10 reason to start boxing!
               </p>
-              <iframe src="https://www.youtube-nocookie.com/embed/EZnZwql1yHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube-nocookie.com/embed/EZnZwql1yHs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="modal-footer">
               <button class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">CLOSE</button>
@@ -200,10 +200,10 @@
 
       <!-- Boxing & Kickboxing Dropdown -->
       <header class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle header-container" type="button" id="guide-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle header-container guide-dropdown-btn" type="button" id="guide-box-kick-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
           Boxing & Kickboxing
         </button>
-        <ul class="dropdown-menu" aria-labelledby="guide-dropdown-btn">
+        <ul class="dropdown-menu" aria-labelledby="guide-box-kick-dropdown-btn">
           <li><a class="dropdown-item" href="#guide-intro-container">Guide Intro</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#guide-why-boxing-container">Why Boxing?</a></li>
@@ -313,10 +313,10 @@
 
       <!-- Junior Boxing Dropdown -->
       <header class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle header-container" type="button" id="guide-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle header-container guide-dropdown-btn" type="button" id="guide-junior-boxing-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
           Junior Boxing
         </button>
-        <ul class="dropdown-menu" aria-labelledby="guide-dropdown-btn">
+        <ul class="dropdown-menu" aria-labelledby="guide-junior-boxing-dropdown-btn">
           <li><a class="dropdown-item" href="#guide-intro-container">Guide Intro</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#guide-why-boxing-container">Why Boxing?</a></li>
@@ -345,7 +345,7 @@
         </div>
         <div id="junior-boxing-video-row" class="row">
           <div class="col-12">
-            <video src="assets/videos/southpaw-video-child-pads.mp4" playsinline autoplay loop type="video/mp4">Your browser does not support HTML5 video.</video>
+            <video src="assets/videos/southpaw-video-child-pads.mp4" playsinline autoplay loop>Your browser does not support HTML5 video.</video>
             <button type="button" class="btn btn-dark d-md-none" data-bs-toggle="modal" data-bs-target="#junior-boxing-modal">More FAQ's</button>
             <button type="button" class="btn btn-dark d-none d-md-inline" data-bs-toggle="modal" data-bs-target="#junior-boxing-modal">Can you attend your child's first session?</button>
           </div>
@@ -394,10 +394,10 @@
 
       <!-- Clothing Dropdown -->
       <header class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle header-container" type="button" id="guide-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle header-container guide-dropdown-btn" type="button" id="guide-clothing-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
           Clothing
         </button>
-        <ul class="dropdown-menu" aria-labelledby="guide-dropdown-btn">
+        <ul class="dropdown-menu" aria-labelledby="guide-clothing-dropdown-btn">
           <li><a class="dropdown-item" href="#guide-intro-container">Guide Intro</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#guide-why-boxing-container">Why Boxing?</a></li>
@@ -449,7 +449,7 @@
             </div>
           </div>
           <div class="col-lg-4 p-0">
-            <video id="clothing-video" src="assets/videos/southpaw-video-man-hoops.mp4" playsinline autoplay loop type="video/mp4">Your browser does not support HTML5 video.</video>
+            <video id="clothing-video" src="assets/videos/southpaw-video-man-hoops.mp4" playsinline autoplay loop>Your browser does not support HTML5 video.</video>
           </div>
         </div>
       </section>
@@ -515,10 +515,10 @@
 
       <!-- Closing Note Dropdown -->
       <header class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle header-container" type="button" id="guide-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle header-container guide-dropdown-btn" type="button" id="guide-closing-dropdown-btn" data-bs-toggle="dropdown" aria-expanded="false">
           Closing Note
         </button>
-        <ul class="dropdown-menu" aria-labelledby="guide-dropdown-btn">
+        <ul class="dropdown-menu" aria-labelledby="guide-closing-dropdown-btn">
           <li><a class="dropdown-item" href="#guide-intro-container">Guide Intro</a></li>
           <li><hr class="dropdown-divider"></li>
           <li><a class="dropdown-item" href="#guide-why-boxing-container">Why Boxing?</a></li>
@@ -574,7 +574,7 @@
       <!-- Closing Note Footer -->
       <footer class="guide-footer d-xl-none d-flex justify-content-between align-items-center px-1 px-sm-5">
         <p>&copy; 2021 Southpaw Boxing Club</p>
-        <ul id="social-media-footer-links">
+        <ul class="social-media-footer-links">
           <li>
             <a href="https://www.facebook.com/" target="_blank">
               <i class="fab fa-facebook-square"></i>
@@ -600,7 +600,7 @@
   <footer class="container-fluid">
     <div class="container d-none d-xl-flex px-5" id="footer-container">
       <p>&copy; 2021 Southpaw Boxing Club</p>
-      <ul id="social-media-footer-links">
+      <ul class="social-media-footer-links">
         <li>
           <a href="https://www.facebook.com/" target="_blank">
             <i class="fab fa-facebook-square"></i>
