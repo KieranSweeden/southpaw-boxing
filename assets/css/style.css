@@ -590,6 +590,43 @@ h2,
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) {
+  #why-boxing-quote-row {
+    height: 35vh;
+  }
+  #why-boxing-challenge-row {
+    height: 10vh;
+  }
+  #why-boxing-bullet-row {
+    height: 12.5vh;
+  }
+  #why-boxing-bullet-text p {
+    width: 100%;
+  }
+}
+
+#why-boxing-paragraph-row {
+  height: 27.5vh;
+  position: relative;
+}
+
+#why-boxing-paragraph-row p {
+  color: var(--white-color);
+  font-size: var(--responsive-text);
+  margin-bottom: 0;
+}
+
+#why-boxing-paragraph-button {
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+}
+
+#why-boxing-side-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Boxing & Kickboxing Section */
 
 #box-kick-container h3 {

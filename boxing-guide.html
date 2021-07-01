@@ -123,28 +123,41 @@
       </header>
 
       <!-- Why Boxing Content -->
-      <section class="container-fluid bg-transparent">
-        <div id="why-boxing-quote-row" class="row">
-          <div id="why-boxing-image" class="col-6">
-            <img src="assets/images/boxing-guide/sugar-ray-leonard.jpg" alt="Photograph of boxing legend Sugar Ray Leonard">
+      <div class="row p-0 m-0">
+        <section class="bg-transparent col-12 col-md-6 p-0">
+          <div id="why-boxing-quote-row" class="row w-100 m-0">
+            <div id="why-boxing-image" class="col-6">
+              <img src="assets/images/boxing-guide/sugar-ray-leonard.jpg" alt="Photograph of boxing legend Sugar Ray Leonard">
+            </div>
+            <figure id="why-boxing-quote-text" class="col-6 p-2 d-flex flex-column justify-content-around align-items-center h-100"> 
+              <p><cite>"Boxing is the ultimate challenge. There’s nothing that can compare to testing yourself the way you do every time you step in the ring."</cite></p>
+              <figcaption>Quote by 6-time world champion, <b>Sugar Ray Leonard</b>.</figcaption>
+            </figure>
           </div>
-          <figure id="why-boxing-quote-text" class="col-6 p-2 m-0 d-flex flex-column justify-content-around align-items-center"> 
-            <p><cite>"Boxing is the ultimate challenge. There’s nothing that can compare to testing yourself the way you do every time you step in the ring."</cite></p>
-            <figcaption>Quote by 6-time world champion, <b>Sugar Ray Leonard</b>.</figcaption>
-          </figure>
-        </div>
-        <div id="why-boxing-challenge-row" class="row">
-          <div class="col-12 p-2 d-flex justify-content-center align-items-center">
-            <p class="m-0 text-center">Boxing is the ultimate challenge due to the speed, agility, endurance and mental resilience it demands from you. </p>
+          <div id="why-boxing-challenge-row" class="row w-100 m-0">
+            <div class="col-12 p-2 d-flex justify-content-center align-items-center">
+              <p class="m-0 text-center">Boxing is the ultimate challenge as it demands speed, agility, endurance and mental resilience from you. </p>
+            </div>
           </div>
-        </div>
-        <div id="why-boxing-bullet-row" class="row">
-          <div id="why-boxing-bullet-text" class="col-12 p-2 d-flex align-items-center">
-            <p>Tackling these challenges with us at Southpaw will benefit you not only in the gym, but also in everyday life.</p>
+          <div id="why-boxing-bullet-row" class="row w-100 m-0">
+            <div id="why-boxing-bullet-text" class="col-12 p-2 d-flex justify-content-start justify-content-md-center align-items-center">
+              <p>Tackling these challenges with us at Southpaw will benefit you not only in the gym, but also in everyday life.</p>
+            </div>
+            <button type="button" id="why-boxing-button" class="btn btn-dark d-md-none" data-bs-toggle="modal" data-bs-target="#why-boxing-modal"><i class="fas fa-book-open"></i> Read More</button>
           </div>
-          <button type="button" id="why-boxing-button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#why-boxing-modal"><i class="fas fa-book-open"></i> Read More</button>
+          <div id="why-boxing-paragraph-row" class="row w-100 d-none d-md-block m-0">
+            <div class="col-12 p-2 d-flex justify-content-center align-items-center h-100">
+              <p class="p-2" >
+                Firstly, it's flexible! You can get involved as much as you'd like depending on your schedule. From shadowboxing at home at random times, to attending all of the our <a href="sessions.html">Boxing Sessions</a> on a weekly basis. You get to dictate the intensity that's right for you and we'll help you get there.
+              </p>
+              <button type="button" id="why-boxing-paragraph-button" class="btn btn-dark d-none d-md-block" data-bs-toggle="modal" data-bs-target="#why-boxing-modal"><i class="fas fa-book-open"></i> Read More</button>
+            </div>
+          </div>
+        </section>
+        <div id="why-boxing-side-image" class="d-none d-md-block col-md-6 p-0">
+          <img src="assets/images/boxing-guide/southpaw-image-two-men-pose.jpg" alt="">
         </div>
-      </section>
+      </div>
 
       <!-- Why Boxing? Modal -->
       <div class="modal fade" id="why-boxing-modal" tabindex="-1" aria-labelledby="why-boxing-modal-label" aria-hidden="true">
@@ -156,10 +169,10 @@
             </div>
             <div class="modal-body">
               <p>
-                There are many reasons to start your boxing journey, especially with us at Southpaw Boxing Club.
+                There are many reasons to start your boxing journey, especially with us at Southpaw Boxing Club!
               </p>
               <img src="assets/images/boxing-guide/southpaw-image-man-ropes.jpg" alt="A man tired and standing against the ropes of a boxing ring.">
-              <p>
+              <p class="d-md-none">
                 Firstly, it's flexible! You can get involved as much as you'd like depending on your schedule. From shadowboxing at home at random times, to attending all of the our <a href="sessions.html">Boxing Sessions</a> on a weekly basis. You get to dictate the intensity that's right for you and we'll help you get there.
               </p>
               <p>
