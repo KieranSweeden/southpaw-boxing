@@ -994,13 +994,13 @@ h2,
 }
 
 #closing-note-child {
-  width: 50%;
-  height: 100%;
+  height: 75vh;
 }
 
 #closing-note-child img {
+  height: 100%;
   width: 100%;
-  object-fit: center/cover;
+  object-fit: cover;
 }
 
 /* Guide Footer */
@@ -1317,7 +1317,7 @@ h2,
   background-color: var(--black-color);
   height: 10vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
