@@ -430,6 +430,19 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 ### Content
 
+In order to avoid the use of placeholder text (such as Lorem Ipsum etc.), I needed to visit sites and read articles surrounding the world of boxing and learning the sport. The sites and articles listed below were used as inspiration and to gain a better understanding of boxing and boxing classes, so the content provided would be relevant to the page and site as a whole:
+
+- [Noble Art Boxing](https://nobleartboxing.com/)'s site in general.
+- [Be Happy Boxing](https://behappyboxing.com)'s blog post, [What should I wear for boxing?](https://behappyboxing.com/what-should-i-wear-for-boxing/).
+- [Boxing Life](https://myboxinglife.com/)'s blog post, [What To Wear For Boxing Training](https://myboxinglife.com/what-to-wear-for-boxing-training/).
+- [Just Athletics](https://just-athletics.com/)' article, [13 Best Boxing Shorts - 2021 Comparison & Reviews](https://just-athletics.com/13-best-boxing-shorts-comparison-reviews/).
+- [Legends Boxing](https://www.legendsboxing.com/)'s article, [Beginners Guide to Boxing for Kids](https://www.legendsboxing.com/post/beginners-guide-to-boxing-for-kids).
+- [WBCME](https://www.wbcme.co.uk/)'s article, [Boxing for Kids: A Guide](https://www.wbcme.co.uk/ringside/boxing-for-kids-a-guide/).
+- [TIME](https://time.com/)'s article, [How Kickboxing Can Change Your Body and Your Life](https://time.com/4712881/kickboxing-fitness-workout/).
+- [USNews](https://www.usnews.com/)' article, [Kickboxing vs. Boxing: What Are The Differences and Benefits?](https://health.usnews.com/wellness/fitness/articles/kickboxing-vs-boxing-what-are-the-differences-and-benefits).
+- [LiveStrong.com](https://www.livestrong.com/)'s article, [What is better for Fighting: Boxing or Kickboxing?](https://www.livestrong.com/article/155584-what-is-better-for-fighting-boxing-or-kickboxing/).
+- [NY Martial Arts Academy](https://www.nymaa.com/)'s article, [What Is The Difference Between Boxing & Kickboxing? Pros & Cons](https://www.nymaa.com/martial-arts-blog/What-Is-the-Difference-Between-Boxing--Kickboxing-Pros--Cons_AE214.html).
+
 ### Media
 
 **Videos**
@@ -439,6 +452,10 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
   - [This video](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/) was used within the private sessions section of the [sessions.html](sessions.html) file.
 
   - [This video](https://www.pexels.com/video/sport-child-strength-exercise-4752902/) was used within the junior boxing section of the [boxing-guide.html](boxing-guide.html) file.
+
+  - [This video](https://www.pexels.com/video/a-boxer-showing-his-rapid-punching-skill-4761768/) was used as a background video for larger screens in a landscape position for the [index.html](index.html) file.
+
+  - [This video](https://www.pexels.com/video/sport-reflection-strong-training-4754033/) was used as a background video for smaller screens that typically in a portrait position for the [index.html](index.html) file.
 
 **Images**
 
