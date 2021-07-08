@@ -1131,7 +1131,7 @@ h2,
 }
 
 #private-session-video {
-  height: 25vh;
+  height: 20vh;
   background-color: var(--light-grey-color);
   position: relative;
 }
@@ -1147,26 +1147,20 @@ h2,
 }
 
 #private-session-info {
-  height: 35vh;
+  height: 42.5vh;
   background-color: var(--white-color);
   padding: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   #private-session-info {
-    height: 35vh;
+    height: 25vh;
   }
 }
 
 @media (min-width: 992px) {
   #private-session-info {
-    height: 45vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #private-session-info {
-    height: 35vh;
+    height: 30vh;
   }
 }
 
@@ -1177,7 +1171,7 @@ h2,
 }
 
 .private-session-image {
-  height: 40%;
+  height: 10vh;
   width: 100%;
 }
 
@@ -1187,8 +1181,38 @@ h2,
   object-fit: cover;
 }
 
+@media (min-width: 576px) {
+  .private-session-image {
+    height: 17.5vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .private-session-image {
+    height: 22.5vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .private-session-image {
+    height: 15vh;
+  }
+}
+
 #session-contact-container {
-  height: 10vh;
+  height: 7.5vh;
+}
+
+@media (min-width: 992px) {
+  #session-contact-container {
+    height: 7.5vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #session-contact-container {
+    height: 5vh;
+  }
 }
 
 #session-contact-questions p {
