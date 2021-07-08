@@ -416,6 +416,7 @@ You can clone this repository directly from the command line. To do this:
 
 - HTML5
 - CSS3
+- JavaScript (Only utilised by Bootstrap 5)
 </details>
 
 <details>
