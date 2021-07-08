@@ -365,6 +365,48 @@ To view all testing procedures undertaken, [click here](TESTING.md).
 
 ## Deployment
 
+This project was created using VS Code, therefore there are no instructions relating to other code editors such as GitPod.
+
+### GitHub Pages
+
+GitHub pages was utilised so this project can be deployed within a remote environment, meaning the project be viewed by others without having to clone or fork this repository. To view this page with GitHub pages:
+
+1. Locate the **Environments** sub-heading on the aside section of this repository.
+2. Click the **github-pages** link with an active badge alongside it.
+3. Click the **View deployment** button for the most recent commit, which should be at the top of the list of commits.
+
+### Fork this Repository
+
+Forking a repository is a process where you can create your own copy of this repository, that'll be stored as one of your own GitHub repostories. To create your own personal copy:
+
+1. Make sure you are logged in to your GitHub account.
+2. Scroll to the top of this page. At the top right you can see three buttons, click the **Fork** button on the right hand side.
+3. You now have your own personal copy of this repository. This will be located within your own repositories.
+
+### Clone this Repository locally using GitHub
+
+You can clone this repository with GitHub. To do this:
+
+1. Scroll to the top of this page and click the green **Code** button. A dropdown pop-up should appear.
+2. Click **Download Zip** and select a location within your local computer to store the zip file.
+3. Extract the zip file using an extractor of your choice.
+4. Right click on the newly created folder and select **Open with Code** or open this folder any other code editor of your choice.
+5. You should now have access to your own personal copy of this repository locally.
+
+### Clone this Repository locally using the Command Line
+
+You can clone this repository directly from the command line. To do this:
+
+1. Scroll to the top of this page & click the green **Code** button. A dropdown pop-up should appear.
+2. Make sure **HTTPS** is underlined and click the clipboard on the righthand side of the link within the pop-up. You've now copied the URL link to this repository.
+3. Open your code editor of choice and make sure the current directory in which you're located within, is the one where you want your personal copy of this repository to be.
+4. Open your command line.
+5. Within your command line type:
+   <code>git clone</code>
+6. Insert a space and paste (<code>CTRL + V</code>) the URL link you previous copied:
+   <code>git clone https://github.com/KieranSweeden/southpaw-boxing.git</code>
+7. Press enter. After some loading, you should have your own personal copy of this repository within your current directory.
+
 [Return to Index](#index)
 
 ## Technologies
