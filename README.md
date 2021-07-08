@@ -359,12 +359,7 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 ## Testing
 
-### Validator Testing
-
-- HTML
-  - \* errors were returned when passing through the official [W3C Validator](https://validator.w3.org/)
-- CSS
-  - \* errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+To view all testing procedures undertaken, [click here](TESTING.md).
 
 [Return to Index](#index)
 

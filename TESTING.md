@@ -1,5 +1,7 @@
 # Southpaw Boxing Club Testing
 
+To go back to the README file, [click here](README.md).
+
 ## Index
 
 1. [Validation Testing](#Validation-Testing)
