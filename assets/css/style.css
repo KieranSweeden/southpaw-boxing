@@ -1382,6 +1382,8 @@ h2,
 
 #success-message-container {
   background-color: var(--light-grey-color);
+  height: 90%;
+  min-width: 50%;
 }
 
 @media (min-width: 992px) {
@@ -1396,8 +1398,13 @@ h2,
   }
 }
 
+#success-message {
+  height: 100%;
+  width: 90%;
+}
+
 #success-message h3 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -1415,6 +1422,34 @@ h2,
 
 #success-message a {
   width: 40%;
+}
+
+@media (min-width: 576px) {
+  #success-message {
+    height: 80%;
+    width: 80%;
+  }
+
+  #success-message h3 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #success-message p {
+    text-align: center;
+  }
+
+  #success-message h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #success-message a {
+    width: 40%;
+  }
 }
 
 /* Footer */
