@@ -527,6 +527,8 @@ In order to avoid the use of placeholder text (such as Lorem Ipsum etc.), I need
 
   - [This image](https://www.pexels.com/photo/woman-in-black-shirt-and-black-shorts-carrying-black-leather-shoulder-bag-4754146/) was used within the boxing & kickboxing section of the [boxing-guide.html](boxing-guide.html) file.
 
+  - [This image](https://www.pexels.com/photo/2-men-and-woman-doing-exercise-4752825/) was used as a background image throughout the [boxing-guide.html](boxing-guide.html) file.
+
 - Credit to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for the images listed below:
 
   - [This image](<https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard,_1984_(cropped).jpg>) was used within the Why Boxing? section of the [boxing-guide.html](boxing-guide.html) file. Originally sourced by the [City of Boston Archives](https://www.flickr.com/people/48039697@N05).
