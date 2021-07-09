@@ -440,6 +440,8 @@ You can clone this repository directly from the command line. To do this:
 - [WebAim](https://webaim.org/resources/contrastchecker/) was utilised to check that the colour ratio between the text and background colours met the accessibilty standards
 - [Tables Generator](https://www.tablesgenerator.com/markdown_tables) was utilised to quickly format a table for this README.
 - [Converterpoint](https://converterpoint.com/) was used to optimize videos ready for the web.
+- The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of every HTML document within this project.
+- The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the style.css file.
   </details>
 
 [Return to Index](#index)
