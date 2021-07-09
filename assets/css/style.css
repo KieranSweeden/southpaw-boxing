@@ -374,6 +374,10 @@ h2,
   background-color: var(--dark-grey-color);
 }
 
+.dropdown-toggle::after {
+  display: none;
+}
+
 #boxing-guide-container {
   padding: 0;
   scroll-snap-type: y proximity;
