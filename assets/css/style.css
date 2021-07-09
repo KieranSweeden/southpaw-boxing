@@ -266,30 +266,35 @@ html {
 }
 
 #home-container img {
-  max-width: 70%;
+  max-width: 75%;
   z-index: 1;
   object-fit: cover;
+  margin-bottom: 1.5rem;
 }
 
-#home-container p {
+.home-links {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.home-links p {
   color: var(--white-color);
   font-size: var(--responsive-text);
   width: 75%;
   text-align: center;
-  margin: 2rem 0 0.5rem 0;
-  z-index: 1;
+  margin-bottom: 0.5rem;
 }
 
-#home-container a {
+#home-container ul li {
   z-index: 1;
 }
 
 #home-container ul {
   margin-top: 1.5rem;
-}
-
-#home-container ul li {
-  z-index: 3;
 }
 
 /* Header */
