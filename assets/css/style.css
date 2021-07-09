@@ -693,6 +693,7 @@ h2,
   margin-bottom: 0;
   font-size: var(--responsive-text);
   text-align: right;
+  width: 95%;
 }
 
 #box-kick-boxing-row button {
@@ -721,6 +722,7 @@ h2,
   text-align: left;
   margin-bottom: 0;
   font-size: var(--responsive-text);
+  width: 95%;
 }
 
 #box-kick-kickboxing-row button {
@@ -800,6 +802,7 @@ h2,
   font-size: var(--responsive-text);
   margin-top: 1.2rem;
   margin-bottom: 0;
+  width: 95%;
 }
 
 .trans-bg {
@@ -1421,6 +1424,10 @@ h2,
   color: var(--light-grey-color);
   font-size: 0.8rem;
   margin-bottom: 0;
+}
+
+.southpaw-copyright {
+  font-size: var(--responsive-text);
 }
 
 .social-media-footer-links {
