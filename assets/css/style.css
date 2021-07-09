@@ -387,7 +387,7 @@ h2,
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)
-    url(../images/boxing-guide/southpaw-image-woman-ropes.jpg) no-repeat
+    url(../images/boxing-guide/southpaw-image-tutor-child-pads.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
 }
