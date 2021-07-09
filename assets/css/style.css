@@ -84,16 +84,12 @@ html {
   font-size: 1.5rem;
 }
 
-.btn-guide-intro {
-  height: 100%;
-  width: 100%;
-}
-
 .btn-container a {
   margin: 0.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 90%;
 }
 
 .btn-intro {
@@ -102,11 +98,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.btn-column {
-  height: 50%;
-  padding: 0;
 }
 
 .btn-container {
@@ -486,13 +477,7 @@ h2,
 /* Guide Intro Section */
 
 #guide-intro-welcome {
-  height: 55vh;
-
-  /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
-  background: rgba(0, 0, 0, 0.6)
-    url(../images/boxing-guide/southpaw-image-child-posture.jpg) no-repeat
-    center/cover;
-  background-blend-mode: multiply;
+  height: 85vh;
 }
 
 #guide-intro-welcome img {
@@ -506,39 +491,49 @@ h2,
   font-size: var(--responsive-text);
 }
 
+#guide-intro-welcome-text small {
+  color: var(--light-grey-color);
+}
+
 #guide-intro-welcome p:last-child,
 #guide-intro-text p:last-child {
   margin: 0;
 }
 
-#guide-intro-info {
-  height: 30vh;
-  border-top: 3px;
-  position: relative;
+.btn-guide {
+  width: 100%;
+  height: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
   #guide-intro-welcome {
-    height: 75vh;
+    height: 85vh;
   }
 
   #guide-intro-info {
     height: 10vh;
   }
-
-  .btn-column {
-    height: 100%;
-  }
 }
 
 @media (min-width: 1200px) {
   #guide-intro-welcome {
-    height: 65vh;
+    height: 75vh;
+  }
+
+  .btn-guide {
+    width: 75%;
   }
 }
 
 #guide-intro-buttons {
   height: 100%;
+}
+
+#guide-intro-buttons a {
+  height: 90%;
 }
 
 /* Why Boxing Section */
