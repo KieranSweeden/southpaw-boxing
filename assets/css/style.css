@@ -129,7 +129,6 @@ html {
   justify-content: space-evenly;
   align-items: center;
   height: 10vh;
-  /* padding-bottom: 0.4rem; */
 }
 
 #nav-container .row {
@@ -393,11 +392,11 @@ h2,
 
   /* Hide scrollbar for IE, Edge & Firefox */
   -ms-overflow-style: none;
-  /* scrollbar-width: none; */
+  scrollbar-width: none;
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)
-    url(../images/boxing-guide/southpaw-image-woman-close.jpg) no-repeat
+    url(../images/boxing-guide/southpaw-image-woman-ropes.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
 }
@@ -633,6 +632,10 @@ h2,
   margin-bottom: 0;
 }
 
+#why-boxing-paragraph-row a {
+  color: var(--lime-color);
+}
+
 #why-boxing-paragraph-button {
   position: absolute;
   right: 0;
@@ -776,7 +779,6 @@ h2,
 
 .junior-boxing-question-row {
   height: 30vh;
-  background-color: var(--trans-white-color);
   padding: 0 0.5rem;
 }
 
@@ -800,14 +802,20 @@ h2,
   margin-bottom: 0;
 }
 
-.junior-boxing-question-row p a {
-  color: var(--dark-grey-color);
+.trans-bg {
+  color: var(--white-color);
 }
 
-.junior-boxing-question-row p a:hover,
-.junior-boxing-question-row p a:focus,
-.junior-boxing-question-row p a:active {
+.trans-bg h3 {
+  color: var(--white-color);
+}
+
+.trans-bg a {
   color: var(--lime-color);
+}
+
+.white-bg {
+  background-color: var(--trans-white-color);
 }
 
 #junior-boxing-video-row {
