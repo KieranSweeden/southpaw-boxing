@@ -522,13 +522,21 @@ h2,
   }
 }
 
+@media (min-width: 992px) {
+  .btn-guide {
+    height: 50%;
+    width: 20%;
+  }
+}
+
 @media (min-width: 1200px) {
   #guide-intro-welcome {
     height: 75vh;
   }
 
   .btn-guide {
-    width: 75%;
+    height: 60%;
+    width: 20%;
   }
 }
 
