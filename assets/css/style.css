@@ -32,6 +32,18 @@ html {
 
 /* Utilities */
 
+.center-with-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.evenly-with-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .container-fluid {
   background-color: var(--black-color);
 }
