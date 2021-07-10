@@ -7,24 +7,36 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Southpaw | Home</title>
+  <title>Home | Southpaw</title>
 </head>
 <body>
   
+  <!-- Container -->
   <div class="container-fluid d-flex flex-column justify-content-center align-items-center" id="home-container">
+
+    <!-- Video Background for Small Vertical Screens -->
     <div class="d-block d-md-none video-bg">
       <video src="assets/videos/southpaw-video-woman-tutor.mp4" playsinline autoplay loop>Your browser does not support HTML5 video.</video>
     </div>
+    <!-- Video Background for Large Horizontal Screens -->
     <div class="d-none d-md-block video-bg">
       <video src="assets/videos/southpaw-video-man-boxing.mp4" playsinline autoplay loop>Your browser does not support HTML5 video.</video>
     </div>
+
     <div class="row d-flex w-100 h-75 justify-content-center align-items-center">
+
+      <!-- Logo for Screens over 1200px -->
       <div class="d-none d-xl-flex flex-column col-xl-6 mw-50 h-100 justify-content-start align-items-center">
         <img src="assets/images/southpaw-logo.png" alt="The Southpaw Boxing Club logo." class="d-none d-lg-inline">
       </div>
+
+      <!-- Home Information with Links -->
       <div class="col-12 col-xl-6 mw-50 h-100 d-flex flex-column justify-content-center justify-content-xl-end align-items-center p-0">
+
         <div class="d-flex h-75 w-100 flex-column justify-content-evenly align-items-center">
+          <!-- Logo for Screens under 1200px -->
           <img src="assets/images/southpaw-logo.png" alt="The Southpaw Boxing Club logo." class="d-xl-none">
+          <!-- Links to Pages -->
           <div class="home-links">
             <p>New to boxing? Check out our Southpaw Boxing Guide!</p>
             <a href="boxing-guide.html" class="btn btn-light">Boxing Guide</a>
@@ -37,6 +49,7 @@
             <p>Get in touch via our contact form or give us a call!</p>
             <a href="contact.html" class="btn btn-light">Contact</a>
           </div>
+          <!-- Social Media Links -->
           <ul class="social-media-footer-links">
             <li>
               <a href="https://www.facebook.com/" target="_blank">
@@ -59,11 +72,7 @@
     </div>
   </div>
   
-
-
-  
   <!-- Bootstrap 5 JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <!-- Boostrap 5 JavaScript -->
 </body>
 </html>
