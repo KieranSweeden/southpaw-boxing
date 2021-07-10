@@ -1490,6 +1490,10 @@ h2,
   margin: 0.3rem 0 0 0;
 }
 
+.social-media-footer-links li a i:hover {
+  color: var(--lime-color);
+}
+
 #footer-container i:hover {
   color: var(--lime-color);
 }
