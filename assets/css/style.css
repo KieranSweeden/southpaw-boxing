@@ -55,6 +55,12 @@ html {
   align-items: center;
 }
 
+.around-with-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .between-with-flex {
   display: flex;
   justify-content: space-between;
