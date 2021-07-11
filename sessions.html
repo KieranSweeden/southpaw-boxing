@@ -7,21 +7,21 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Southpaw | Sessions</title>
+  <title>Sessions | Southpaw</title>
 </head>
 <body>
 
-  <!-- Navigation Start -->
+  <!-- Main Navigation -->
   <nav id="main-nav" class="container-fluid" aria-label="main navigation">
     <div class="container-md px-1 px-sm-5" id="nav-container">
-      <div class="row w-100 d-flex justify-content-between align-items-center">
-        <div id="logo-container" class="col-2 col-md-6 px-3 d-flex justify-content-start align-items-center">
+      <div class="row between-with-flex w-100">
+        <div id="logo-container" class="col-2 col-md-6 start-with-flex px-3">
           <a id="southpaw-abbreviated-logo" class="d-md-none" href="index.html"><abbr title="Southpaw Boxing Club">S</abbr></a>
           <a id="southpaw-logo" class="d-none d-md-block" href="index.html">
             <img src="assets/images/southpaw-logo.png" alt="The Southpaw Boxing Club logo.">
           </a>
         </div>
-        <div class="col-10 col-md-6 px-1 d-flex justify-content-end align-items-center">
+        <div class="col-10 col-md-6 end-with-flex px-1">
           <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link" href="boxing-guide.html">Guide</a>
@@ -37,29 +37,32 @@
       </div>
     </div>
   </nav>
-  <!-- Navigation End -->
 
-  <!-- Session Container Start -->
+  <!-- Container -->
   <section id="session-container" class="container-xl">
     <div class="row">
-      <!-- Public Section Start -->
+      <!-- Public session container -->
       <article id="public-session-container" class="container-fluid col-12 col-lg-6"  >
+        <!-- Public session header -->
         <div class="row">
           <header class="col-12 header-container-no-hover">
             <h2 class="header-heading mx-2">Public Sessions</h2>
             <i class="fas fa-angle-double-down mx-2"></i>
           </header>
         </div>
+          <!-- Public session content -->
           <div class="row public-session-row">
             <div class="public-session-info col-8 col-sm-9 d-flex flex-column justify-content-evenly align-items-center">
               <div class="session-text d-flex justify-content-center align-items-center">
                 <p>Southpaw boxing sessions are optimized to improve muscle tone, hand co-ordination and your boxing skills. Beginning with a warm up, our boxing sessions will later transition to getting hands-on with boxing equipment.</p>
               </div>
+              <!-- Image that appears for screens above 575px -->
               <div class="session-image d-none d-sm-block">
                 <img src="assets/images/sessions/southpaw-image-child-defending.jpg" alt="A tutor running defensive drills with child in a boxing ring.">
               </div>
             </div>
-            <div class="public-session-times col-4 col-sm-3 d-flex flex-column justify-content-evenly align-items-center">
+            <!-- Boxing aside section -->
+            <aside class="public-session-times col-4 col-sm-3 d-flex flex-column justify-content-evenly align-items-center">
               <h3 class="text-uppercase" >Boxing</h3>
               <address class="gym-info d-flex flex-column align-items-center">
                 <p>1 to 1 Gym</p>
@@ -75,18 +78,20 @@
                 <span>10am-11am</span>
               </div>
               <p class="price-on-door">£5 (At The Door)</p>
-            </div>
+            </aside>
           </div>
           <div class="row public-session-row">
             <article class="public-session-info col-8 col-sm-9 d-flex flex-column justify-content-evenly align-items-center">
               <div class="session-text d-flex justify-content-center align-items-center">
                 <p>Southpaw fitness sessions are a tough hour of exercise, that'll test your stamina and resilience. Expect strength and cardio based workouts with and without equipment, built to take your boxing game to the next level.</p>
               </div>
+              <!-- Image that appears for screens above 575px -->
               <div class="session-image d-none d-sm-block">
                 <img src="assets/images/sessions/southpaw-image-woman-mat.jpg" alt="A woman placing an exercise mat down onto the floor.">
               </div>
             </article>
-            <div class="public-session-times col-4 col-sm-3 d-flex flex-column justify-content-evenly align-items-center">
+            <!-- Fitness aside section -->
+            <aside class="public-session-times col-4 col-sm-3 d-flex flex-column justify-content-evenly align-items-center">
               <h3 class="text-uppercase">Fitness</h3>
               <address class="gym-info d-flex flex-column align-items-center">
                 <p>GAH Gym</p>
@@ -102,28 +107,26 @@
                 <span>10am-11am</span>
               </div>
               <p class="price-on-door">£5 (At The Door)</p>
-            </div>
+            </aside>
           </div> 
         </article>
-      <!-- Public Section End -->
-  
       
-      <!-- Private Section Start -->
+      <!-- Private session container -->
       <article id="private-session-container" class="container-fluid col-12 col-lg-6"> 
-        <!-- Private Header Start -->
+        <!-- Private session header -->
         <div class="row">
           <div class="header-container-no-hover col-12 align-items-center justify-content-between">
             <h2 class="header-heading d-inline mx-2">Private Sessions</h2>
             <i class="fas fa-angle-double-down mx-2"></i>
           </div>
         </div>
-        
+        <!-- Private session video -->
         <div class="row">
           <div id="private-session-video" class="col-12">
             <video src="assets/videos/southpaw-video-training-tutor.mp4" playsinline autoplay loop>Your browser does not support HTML5 video.</video>
           </div>
         </div>
-  
+        <!-- Private session content -->
         <div class="row">
           <div id="private-session-info" class="col-12 d-flex flex-column justify-content-evenly justify-content-sm-evenly align-items-center">
             <p class="m-2">
@@ -134,14 +137,13 @@
             </p>
           </div>
         </div>
-
+        <!-- Image that appears for screens over 575px -->
         <div class="row">
           <div class="private-session-image col-12 d-none d-sm-block p-0">
             <img src="assets/images/sessions/southpaw-image-tutor-mirror.jpg" alt="A tutor teaching shadowboxing to a student in front of a mirror.">
           </div>
-
         </div>
-  
+        <!-- Private session contact us section -->
         <div class="row">
           <div id="session-contact-container" class="col-12 header-container-no-hover align-items-center justify-content-evenly">
             <div id="session-contact-questions" class="d-flex align-items-center justify-content-center flex-column">
@@ -150,20 +152,18 @@
             <a href="contact.html" class="btn btn-light">Contact Us</a>
           </div>
         </div>
-  
+        <!-- Private session price section -->
         <div class="row">
           <div id="private-price-container" class="col-12 header-container-no-hover align-items-center justify-content-center">
             <p class="fw-bold">A private session is £30 per hour.</p>
           </div>
         </div>
       </article>
-      <!-- Private Section End -->
     </div>
-
   </section>
-  <!-- Session Container End -->
 
-  <!-- Footer Start -->
+
+  <!-- Main Footer -->
   <footer class="container-fluid">
     <div class="container px-1 px-sm-5" id="footer-container">
       <p>&copy; 2021 Southpaw Boxing Club</p>
@@ -186,10 +186,8 @@
       </ul>
     </div>
   </footer>
-  <!-- Footer End -->
 
   <!-- Bootstrap 5 JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <!-- Boostrap 5 JavaScript -->
 </body>
 </html>
