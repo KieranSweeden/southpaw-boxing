@@ -4,7 +4,7 @@
 
 Short summary of website will go here.
 
-![Southpaw Logo](/assets/images/readme/southpaw-logo.png)
+![Southpaw Logo](/assets/images/readme/readme-responsive.jpg)
 
 [picture of site presented in multiple screen sizes]
 
