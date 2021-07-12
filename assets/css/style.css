@@ -33,7 +33,7 @@ html {
 /* Utilities */
 .start-with-flex {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -45,7 +45,7 @@ html {
 
 .end-with-flex {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -170,7 +170,7 @@ html {
 }
 
 #southpaw-logo img {
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
 }
