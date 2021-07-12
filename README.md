@@ -1,12 +1,12 @@
 # Southpaw Boxing Club
 
-## Summary
+This project was created for my 1st Milestone Project with Code Institute, which focuses on User Centric Frontend Development.
 
-Short summary of website will go here.
+This website was created for a fictional boxing club called Southpaw Boxing Club. Inspired by other websites in the boxing industry, I created various webpages following a strict colour scheme, ranging from a home page with a full screen video background and a detailed boxing guide utilising bootstrap components to create an intuitive user experience.
+
+Click [here](https://kieransweeden.github.io/southpaw-boxing/) to view the live website using GitHub Pages.
 
 ![Southpaw Logo](/assets/images/readme/readme-responsive.jpg)
-
-[picture of site presented in multiple screen sizes]
 
 ## Index
 
