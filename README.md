@@ -443,6 +443,7 @@ You can clone this repository directly from the command line. To do this:
 - The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of every HTML document within this project.
 - The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the style.css file.
 - The [Real Favicon Generator](https://realfavicongenerator.net/) was used to generate favicons for a variety of applications.
+- The [Character Counter](https://charactercounttool.com/) to make sure I didn't exceed the maximum length of 155 characters for the meta descriptions within the html pages. This maximum length was suggested by [Moz](https://moz.com/learn/seo/meta-description) and [Yoast](https://yoast.com/meta-descriptions/).
   </details>
 
 [Return to Index](#index)
