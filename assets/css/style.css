@@ -422,8 +422,9 @@ h2,
   height: 90vh;
   scroll-behavior: smooth;
 
-  /* Hide scrollbar for IE, Edge & Firefox */
+  /* Hide scrollbar for IE & Edge */
   -ms-overflow-style: none;
+  /* Hide scrollbar for Firefox */
   scrollbar-width: none;
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
@@ -431,6 +432,12 @@ h2,
     url(../images/boxing-guide/southpaw-image-tutor-child-pads.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
+}
+
+@media (min-width: 1200px) {
+  #boxing-guide-container {
+    scroll-snap-type: y mandatory;
+  }
 }
 
 /* Hide scrollbar for Chrome, Safari & Opera */
