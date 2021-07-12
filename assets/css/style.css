@@ -223,6 +223,7 @@ html {
   bottom: 0.2rem;
   left: 0;
   border: 0.15rem var(--dark-grey-color) solid;
+  background-color: var(--dark-grey-color);
   transition: border 300ms ease-in-out;
 }
 
@@ -240,6 +241,7 @@ html {
 .nav-pills .nav-link:focus::after,
 .nav-pills .nav-link:active::after {
   border: 0.15rem var(--lime-color) solid;
+  background-color: var(--lime-color);
   width: 100%;
 }
 
@@ -250,6 +252,7 @@ html {
 
 .nav-pills .nav-link.active::after {
   border: 0.15rem var(--lime-color) solid;
+  background-color: var(--lime-color);
   width: 100%;
 }
 
