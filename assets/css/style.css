@@ -388,10 +388,21 @@ h2,
   width: 100%;
   text-transform: uppercase;
   font-size: 1.1rem;
+  position: relative;
+  justify-content: flex-end;
+  padding: 1rem;
 }
 
 .guide-dropdown-btn.show {
   background-color: var(--dark-grey-color);
+}
+
+.dropdown h2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1rem;
+  z-index: 5;
 }
 
 .dropdown .dropdown-menu {
