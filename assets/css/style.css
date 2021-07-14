@@ -1536,7 +1536,7 @@ h2,
   margin: 0;
 }
 
-.social-media-footer-links li a i {
+.social-media-footer-links li a {
   color: var(--light-grey-color);
   font-size: 1.5rem;
   padding: 0 0.75rem;
@@ -1545,7 +1545,8 @@ h2,
   margin: 0.3rem 0 0 0;
 }
 
-.social-media-footer-links li a i:hover {
+.social-media-footer-links li a:hover,
+.social-media-footer-links li a:focus {
   color: var(--lime-color);
 }
 

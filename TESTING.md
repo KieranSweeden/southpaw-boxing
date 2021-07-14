@@ -16,12 +16,14 @@ To go back to the README file, [click here](README.md).
 
 3. [User Stories Testing](#User-Stories-Testing)
 
-4. [Bugs](#Bugs)
+4. [Manual Testing](#Manual-Testing)
+
+5. [Bugs](#Bugs)
 
    - [Fixed](#Fixed)
    - [Remaining](#Remaining)
 
-5. [Responsive Design Testing](#Responsive-Design-Testing)
+6. [Responsive Design Testing](#Responsive-Design-Testing)
 
    - [Hardware Used](#Hardware-Used)
 
@@ -94,6 +96,73 @@ As a visitor in general, I want to:
 - Easily find the organisations' social media links, so I can keep up to date with what's new.
 
   - Social media links can be found at the bottom of every page within the site. These links open a new tab, meaning the user can still continue in browsing the Southpaw site with no hassle.
+
+## Manual Testing
+
+The functionality of the features/elements presented below have been tested.
+
+- Home
+
+  - All links to their respective pages within the website work properly.
+  - All links to their respective pages change colour when hovered or in focus.
+  - All social media links direct the user to the respective social media site in a new tab.
+  - All social media links change colour when hovered or in focus.
+  - Background video changes depending on screen size.
+  - Two columns are present for desktop/laptop screens and the 1st of the two disappears when the screen size is under the 1200px breakpoint.
+  - The Southpaw Boxing Club logo in the 2nd column appears when the 1st column disappears
+
+- Boxing Guide
+
+  - The container turns from fluid to non-fluid depending on screen size.
+  - When clicked, each boxing guide navigation header for each section opens it's dropdown menu when clicked.
+  - When hovered, a green line appears for each boxing guide navigation header.
+  - The scroll-snap is set to mandatory for larger screens and proximity for smaller screens.
+  - Each link within the dropdown menu takes the user to that section as expected.
+  - Each button has a hover/active state and directs the user to the specified section of the boxing guide.
+  - Each button within a section opens it's respective modal containing more information.
+  - Every X and close button within each modal closes it's respective modal.
+  - Each link to an external site opens the link in a new tab.
+  - Each link to an internal page within the website is highlighted with the lime colour.
+  - Videos start immediately whilst being infinitely looped and muted.
+  - Buttons disappear/appear depending on screen size.
+  - The balance of text content shared by each section's main page & modal is determined by the screen size.
+  - Certain pictures & videos appear/disappear depending on screen size.
+  - The main footer is visible for desktop/laptop screen sizes and disappears for tablet screen sizes and below.
+  - The boxing guide footer appears for mobile screens and above, until the screen reaches desktop/laptop sizes, in which it then disappears.
+
+- Sessions
+
+  - The container turns from fluid to non-fluid depending on screen size.
+  - The flex column is set to column for mobile devices and tablets when in portrait orientation.
+  - The flex column is set to row for tablets in landscape orientation and desktop/laptop devices.
+  - Each link/button has a hover/focus state and directs the user the specified location.
+  - Each address link opens the link in a new tab for desktops/laptops and opens Google Maps for mobile & tablet devices.
+  - Images disappear for smaller screen sizes.
+  - Video plays automatically whilst being infinitely looped and muted.
+
+- Contact
+
+  - The container turns from fluid to non-fluid depending on screen size.
+  - The image appears/disappears depending on screen size.
+  - The "Call Us" button has a hover/focus state & immediately prompts mobile users to call with a given number.
+  - Each input within the form has a focus state, informing the user as to where they are within the form.
+  - Each input has a required attribute, alerting the user when a field needs to be completed before submission.
+  - The submit button has hover/focus state and directs the user to the form success page.
+
+- Form success
+
+  - The container turns from fluid to non-fluid depending on screen size.
+  - The image appears/disappears depending on screen size.
+  - Each button has a hover/focus state and directs the user to the specified location.
+
+- Navigation Bar
+
+  - The Southpaw logo is shown for larger screen sizes and an appreviated "S" is shown for smaller screen sizes.
+  - Clicking either the graphic logo or the appreviated "S" will direct the user to the home page.
+  - Hover/focus states are given to each link in the nav bar and are additionaly used to inform the user as to what page they're currently on.
+
+- Footer
+  - All social media links have a hover/focus state & direct the user to their respective social media sites in a new tab.
 
 ## Bugs
 
