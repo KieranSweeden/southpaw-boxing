@@ -104,3 +104,24 @@ As a visitor in general, I want to:
 ## Responsive Design Testing
 
 ### Hardware Used
+
+The hardware used to test the responsive design of this project are as follows:
+
+- Desktop/Laptop
+
+  - Dell XPS 15
+
+- Tablet
+
+  - iPad
+
+- Phone
+  - iPhone 7
+  - iPhone SE
+
+### Software Used
+
+The software used to text the responsive design of this project are as follows:
+
+- Firefox Dev Tools
+- Chrome Dev Tools
