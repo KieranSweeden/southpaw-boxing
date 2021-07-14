@@ -7,7 +7,6 @@ To go back to the README file, [click here](README.md).
 1. [Validation Testing](#Validation-Testing)
 
    - [HTML Validator](#HTML-Validator)
-
    - [CSS Validator](#CSS-Validator)
 
 2. [Performance Testing](#Performance-Testing)
@@ -32,44 +31,53 @@ To go back to the README file, [click here](README.md).
 
 ### HTML Validator
 
-The validator results from the [W3C Markup Validation Service](https://validator.w3.org/) for each page can be found below:
+The HTML validator results from the [W3C Markup Validation Service](https://validator.w3.org/) for each page can be found below:
 
 <details>
-   <summary>Index Page</summary>
+   <summary>index.html</summary>
 
 ![Index page html validator results](/assets/images/readme/validator/html-validator-index.png)
 
 </details>
 
 <details>
-   <summary>Boxing Guide Page</summary>
+   <summary>boxing-guide.html</summary>
 
 ![Index page html validator results](/assets/images/readme/validator/html-validator-boxing-guide.png)
 
 </details>
 
 <details>
-   <summary>Sessions Page</summary>
+   <summary>sessions.html</summary>
 
 ![Index page html validator results](/assets/images/readme/validator/html-validator-sessions.png)
 
 </details>
 
 <details>
-   <summary>Contact Page</summary>
+   <summary>contact.html</summary>
 
 ![Index page html validator results](/assets/images/readme/validator/html-validator-contact.png)
 
 </details>
 
 <details>
-   <summary>Form Success Page</summary>
+   <summary>form-success.html</summary>
 
 ![Index page html validator results](/assets/images/readme/validator/html-validator-contact.png)
 
 </details>
 
 ### CSS Validator
+
+The CSS validator results from the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for style.css can be found below:
+
+<details>
+   <summary>style.css</summary>
+
+![Index page html validator results](/assets/images/readme/validator/html-validator-contact.png)
+
+</details>
 
 ## Performance Testing
 
