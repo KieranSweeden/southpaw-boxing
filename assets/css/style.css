@@ -294,6 +294,7 @@ html {
 
 #home-container img {
   max-width: 75%;
+  height: auto;
   z-index: 1;
   object-fit: cover;
   margin-bottom: 1.5rem;
@@ -436,7 +437,7 @@ h2,
   /* Hide scrollbar for IE & Edge */
   -ms-overflow-style: none;
   /* Hide scrollbar for Firefox */
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)

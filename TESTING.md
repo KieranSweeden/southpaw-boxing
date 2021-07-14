@@ -83,6 +83,27 @@ The CSS validator results from the [W3C CSS Validation Service](https://jigsaw.w
 
 ### Lighthouse Desktop
 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website for desktop. You can view a report of what took place to improve performance for each page below:
+
+<details>
+   <summary>index.html</summary>
+
+![Index page performance results](/assets/images/readme/performance/index.html-before.jpg)
+
+The results for the index.html file on desktop came back positive, with few adjustments needed to improve performance & accessiblity.
+
+Regarding performance, the only warning the report provided was that the logo graphic didn't have an explicitly set width & height.
+
+![Warnings for performance in index.html](/assets/images/readme/performance/warning-index-performance.jpg)
+
+After looking at the best practises provided by web.dev [here](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions), it suggests using the aspect-ratio property. Although this method works and is [supported by most of the major browsers](https://caniuse.com/mdn-css_properties_aspect-ratio), it's not deemed as valid CSS at the time of writing this by the W3C CSS validation service. Thus resulting in an error when using their validator. Because of this, I decided to omit this particular warning, escpecially as it doesn't have a major influence over the page.
+
+Regarding accessibility, Lighthouse provided two warnings shown below:
+
+![Warnings for accessibility in index.html](/assets/images/readme/performance/warning-index-accessibility.jpg)
+
+</details>
+
 ### Lighthouse Mobile
 
 ## User Stories Testing
@@ -238,5 +259,6 @@ The hardware used to test the responsive design of this project are as follows:
 
 The software used to text the responsive design of this project are as follows:
 
-- Firefox Dev Tools
-- Chrome Dev Tools
+- Mozilla Firefox (Inc. Dev Tools)
+- Google Chrome (Inc. Dev Tools)
+- Microsoft Edge
