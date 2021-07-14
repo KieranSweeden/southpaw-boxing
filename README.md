@@ -59,7 +59,7 @@ The primary goal of the Southpaw Boxing Club website is to present information r
   <summary>As a new visitor and potential attendee, I want to:</summary>
 
 - Discern whether the boxing club is suitable for my current level of boxing experience.
-- Quickly observe the public sessions, deducing as to which sessions are most suitable for my current goals.
+- Quickly observe the public sessions, deducing as to which session is most suitable for my current goal.
 - Be informed as to what clothing is appropriate for the boxing sessions.
 </details>
 
