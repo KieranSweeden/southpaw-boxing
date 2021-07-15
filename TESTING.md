@@ -90,7 +90,7 @@ The CSS validator results from the [W3C CSS Validation Service](https://jigsaw.w
 
 ![Index page performance results](/assets/images/readme/performance/index.html-before.jpg)
 
-The results for the index.html file on desktop came back positive, with few adjustments needed to improve performance & accessiblity.
+The results for the index.html file on desktop came back positive, with few adjustments needed to improve performance & accessibility.
 
 Regarding performance, the only warning the report provided was that the logo graphic didn't have an explicitly set width & height.
 
@@ -108,12 +108,22 @@ The secondwarning stated that the social media links didn't contain any respecti
 
 These fixes provided me with an optimal score for the index.html page as shown below:
 
-![index.html results after fixes](/assets/images/readme/performance/index.html-after.jpg)
+![Index page results after fixes](/assets/images/readme/performance/index.html-after.jpg)
 
 </details>
 
 <details>
 <summary>boxing-guide.html</summary>
+
+![Boxing guide page results before fixes](/assets/images/readme/performance/boxing-guide.html-before.jpg)
+
+The results given back from Lighthouse regarding the boxing-guide.html file was good, however improvements could be made throughout especially in performance and accessibility.
+
+Regarding performance, one warning was the boxing-guide.html file does not use passive listeners to improve scroll performance. Given this is a JavaScript related fault and is out of my depth and of the scope of this project, I've decided to leave it be. When having a better understanding of event listeners in JavaScript, this is something I could foreseeably come back to and fix.
+
+The last warning in performance was certain images not having explicitly set width and heights, as shown below:
+
+![Images not having set width & height's in boxing-guide.html](/assets/images/readme/performance/boxing-guide.html-img-width-height.jpg)
 
 </details>
 

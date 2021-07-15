@@ -292,24 +292,34 @@ html {
   left: 0;
 }
 
-#home-container img {
-  max-width: 75%;
-  height: auto;
-  z-index: 5;
-  object-fit: cover;
-  margin-bottom: 1.5rem;
-}
-
-#home-container h1 {
+#lg-screen-logo-container h1 {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-#home-container h1 img {
-  width: 100%;
+#lg-screen-logo-container h1 img {
+  max-width: 75%;
   height: auto;
   transform: translateX(25%);
+}
+
+#sm-screen-content-container h1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#sm-screen-content-container h1 a {
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+
+#sm-screen-content-container h1 img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-links {
