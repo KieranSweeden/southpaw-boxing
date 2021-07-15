@@ -160,6 +160,32 @@ After the inclusion of aria-labels, I generated a report and was pleasantly surp
 
 </details>
 
+<details>
+<summary>contact.html</summary>
+
+Similarly to the sessions.html page, the social media links were provided with aria-labels within the contact.html file. The report also provided an optimal score as shown below:
+
+![Contact page results](/assets/images/readme/performance/contact.html-report.jpg)
+
+</details>
+
+<details>
+<summary>form-success.html</summary>
+
+Despite adding aria-labels, there were additional issues to resolve regarding the form-success.html file. The report for the file is shown below:
+
+![Form success page results before fixes](/assets/images/readme/performance/form-success.html-before.jpg)
+
+The one warning present within the SEO section of the Lighthouse report, states that it's best practise to include for a meta description for various reasons as shown below:
+
+![Lack of meta description within the form success page](/assets/images/readme/performance/form-success.html-meta.jpg)
+
+This problem was quickly fixed in including a suitable meta description for the page. After this fix, Lighthouse provided an optimal report as shown below:
+
+![Form success page results after meta description fix](/assets/images/readme/performance/form-success.html-after.jpg)
+
+</details>
+
 ### Lighthouse Mobile
 
 ## User Stories Testing
