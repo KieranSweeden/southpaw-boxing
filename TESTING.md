@@ -149,6 +149,17 @@ These fixes provided me with a respectable overall score shown below:
 
 </details>
 
+<details>
+<summary>sessions.html</summary>
+
+Prior to generating a Lighthouse report for the sessions page, I added aria-labels to the social media links within the footer as I expected them to be reported given reports regarding previous pages.
+
+After the inclusion of aria-labels, I generated a report and was pleasantly surpised to see an optimal report as shown below:
+
+![Session page results](/assets/images/readme/performance/sessions.html-report.jpg)
+
+</details>
+
 ### Lighthouse Mobile
 
 ## User Stories Testing
