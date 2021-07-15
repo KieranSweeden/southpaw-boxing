@@ -86,7 +86,7 @@ The CSS validator results from the [W3C CSS Validation Service](https://jigsaw.w
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website for desktop. You can view a report of what took place to improve performance for each page below:
 
 <details>
-   <summary>index.html</summary>
+<summary>index.html</summary>
 
 ![Index page performance results](/assets/images/readme/performance/index.html-before.jpg)
 
@@ -96,11 +96,24 @@ Regarding performance, the only warning the report provided was that the logo gr
 
 ![Warnings for performance in index.html](/assets/images/readme/performance/warning-index-performance.jpg)
 
-After looking at the best practises provided by web.dev [here](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions), it suggests using the aspect-ratio property. Although this method works and is [supported by most of the major browsers](https://caniuse.com/mdn-css_properties_aspect-ratio), it's not deemed as valid CSS at the time of writing this by the W3C CSS validation service. Thus resulting in an error when using their validator. Because of this, I decided to omit this particular warning, escpecially as it doesn't have a major influence over the page.
+After looking at the best practises provided by web.dev [here](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions), it suggests using the aspect-ratio property. Although this method works and is [supported by most of the major browsers](https://caniuse.com/mdn-css_properties_aspect-ratio), it's not deemed as valid CSS at the time of writing this by the W3C CSS validation service. Thus resulting in an error when using their validator. Because of this, I decided to omit this particular warning, especially when considering it doesn't have a major influence over the page.
 
 Regarding accessibility, Lighthouse provided two warnings shown below:
 
 ![Warnings for accessibility in index.html](/assets/images/readme/performance/warning-index-accessibility.jpg)
+
+The first warning stated that a lack of headers made the page inaccessible. I was able to tackle this warning by looking at [this Stack Overflow post](https://stackoverflow.com/questions/665037/replacing-h1-text-with-a-logo-image-best-method-for-seo-and-accessibility). The answer provided by Rahul (later edited by Henrique) was a sufficient fix for this warning.
+
+The secondwarning stated that the social media links didn't contain any respective discernible names. I was able to tackle this warning by applying an aria-label attribute to each social media link.
+
+These fixes provided me with an optimal score for the index.html page as shown below:
+
+![index.html results after fixes](/assets/images/readme/performance/index.html-after.jpg)
+
+</details>
+
+<details>
+<summary>boxing-guide.html</summary>
 
 </details>
 

@@ -470,6 +470,8 @@ You can clone this repository directly from the command line. To do this:
 
 - I used [this tutorial](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp) by [W3Schools](https://www.w3schools.com/) in order to hide the scrollbar but maintain the scroll functionality for the popular browsers.
 
+- Google Lighthouse was reporting a warning as index.html didn't initially contain a h1. I was inspired by a code example provided by [Rahul](https://stackoverflow.com/users/16308/rahul) within [this Stack Overflow post](https://stackoverflow.com/questions/665037/replacing-h1-text-with-a-logo-image-best-method-for-seo-and-accessibility), to replace h1 text with an image which is best for SEO & accessibility.
+
 ### Content
 
 In order to avoid the use of placeholder text (such as Lorem Ipsum etc.), I needed to visit sites and read articles surrounding the world of boxing and learning the sport. The sites and articles listed below were used as inspiration and to gain a better understanding of boxing and boxing classes, so the content provided would be relevant to the page and site as a whole:
