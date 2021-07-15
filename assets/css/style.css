@@ -167,6 +167,7 @@ html {
 
 #southpaw-logo {
   height: 65%;
+  width: 100%;
 }
 
 #southpaw-logo img {
@@ -565,6 +566,7 @@ h2,
 #guide-intro-welcome img {
   object-fit: cover;
   max-width: 70%;
+  height: auto;
 }
 
 #guide-intro-welcome-text p,
@@ -729,6 +731,7 @@ h2,
 
 #why-boxing-side-image img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 

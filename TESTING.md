@@ -119,11 +119,33 @@ These fixes provided me with an optimal score for the index.html page as shown b
 
 The results given back from Lighthouse regarding the boxing-guide.html file was good, however improvements could be made throughout especially in performance and accessibility.
 
-Regarding performance, one warning was the boxing-guide.html file does not use passive listeners to improve scroll performance. Given this is a JavaScript related fault and is out of my depth and of the scope of this project, I've decided to leave it be. When having a better understanding of event listeners in JavaScript, this is something I could foreseeably come back to and fix.
+Lighthouse provided an opportunity in improving performance by pre-loading a particular image. The image itself isn't large, being a total size of 68.KB which made this suggestion peculiar. Regardless I followed the advice given within [this web.dev article](https://web.dev/optimize-lcp/?utm_source=lighthouse&utm_medium=devtools#preload-important-resources), which suggests adding preload functionality to critical assets which made sense given this image is present throughout the entirety of the page.
+
+Still on performance, the first warning was the boxing-guide.html file does not use passive listeners to improve scroll performance. Given this is a JavaScript related fault and is out of my depth and of the scope of this project, I've decided to leave it be. When having a better understanding of event listeners in JavaScript, this is something I could foreseeably come back to and fix.
 
 The last warning in performance was certain images not having explicitly set width and heights, as shown below:
 
 ![Images not having set width & height's in boxing-guide.html](/assets/images/readme/performance/boxing-guide.html-img-width-height.jpg)
+
+This was easily fixed when following the [web.dev](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions) article, which suggests adding native html width & height values to the img element to provide the browser with an aspect ratio.
+
+Regarding accessibility Lighthouse reported that many buttons (particularly the header dropdown buttons) throughout didn't contain an accessible name as shown below:
+
+![Buttons do not have accessible names in boxing-guide.html](/assets/images/readme/performance/boxing-guide.html-semantics-buttons.jpg)
+
+This was swfitly fixed by adding aria-label attributes to each button that opens the boxing guide navigation menu.
+
+Lastly the social media links within the footer needed accessible names also, similarly to the warnings given for index.html.
+
+Moving to SEO, Lighthouse reported a link that didn't contain any descriptive text as shown below:
+
+![Link does not have descriptive text in boxing-guide.html](/assets/images/readme/performance/boxing-guide.html-semantics-buttons.jpg)
+
+It reports that "here" is not descriptive enough for search engines to understand the link's purpose. Therefore I included more of the paragraph into the link text, to give it a more in-depth description which is of more use to screen reader users and search engines.
+
+These fixes provided me with a respectable overall score shown below:
+
+![Boxing guide page results after fixes](/assets/images/readme/performance/boxing-guide.html-after.jpg)
 
 </details>
 
