@@ -1201,6 +1201,10 @@ h2,
   .session-image {
     height: 40%;
   }
+
+  #public-session-container .header-container-no-hover {
+    border-right: 2px var(--black-color) solid;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1297,6 +1301,10 @@ h2,
 
   #session-contact-container {
     height: 7.5vh;
+  }
+
+  #private-session-container .header-container-no-hover {
+    border-left: 2px var(--black-color) solid;
   }
 }
 
