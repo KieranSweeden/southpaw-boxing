@@ -236,6 +236,7 @@ html {
   height: 5vh;
   position: relative;
   z-index: 1;
+  padding: 0.5rem;
 }
 
 /* Green line animation before */
@@ -265,6 +266,14 @@ h2,
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
+}
+
+.header-container-no-hover h2 {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  z-index: 5;
 }
 
 .header-container p,
