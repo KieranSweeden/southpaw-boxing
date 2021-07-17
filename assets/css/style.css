@@ -1336,6 +1336,7 @@ h2,
   background-color: var(--dark-grey-color);
   height: 95%;
   width: 95%;
+  border-bottom: 5px var(--lime-color) solid;
 }
 
 #form-content-container {
@@ -1343,10 +1344,15 @@ h2,
   padding: 0;
 }
 
-#form-call-to-action {
+.form-call-to-action {
   color: var(--white-color);
   margin: 0;
   font-size: 1.4rem;
+}
+
+.contact-number {
+  color: var(--white-color);
+  margin: 0;
 }
 
 #form-container .form label {
@@ -1400,6 +1406,7 @@ h2,
   width: 85%;
   height: 85%;
   object-fit: cover;
+  border-bottom: 5px var(--lime-color) solid;
 }
 
 .contact-medium-image {
