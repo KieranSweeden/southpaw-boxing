@@ -466,6 +466,7 @@ h2,
 #boxing-guide-container {
   padding: 0;
   scroll-snap-type: y proximity;
+  -ms-scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 90vh;
   scroll-behavior: smooth;
