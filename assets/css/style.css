@@ -30,7 +30,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Utilities */
+/* ---------------------------------------- Utilities */
 .start-with-flex {
   display: flex;
   justify-content: flex-start;
@@ -228,7 +228,101 @@ html {
   width: 100%;
 }
 
-/* Home Page */
+/* Headers */
+
+.header-container,
+.header-container-no-hover {
+  background-color: var(--dark-grey-color);
+  height: 5vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* Green line animation before */
+.header-container::before {
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 3px;
+  transition: all 300ms ease-in-out;
+}
+
+/* Green line animation after */
+.header-container:hover::before {
+  background-color: var(--lime-color);
+  width: 100%;
+}
+
+.header-container .header-container h1,
+h2,
+.header-container-no-hover h1,
+.header-container-no-hover h2 {
+  color: var(--white-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header-container p,
+.header-container-no-hover p {
+  color: var(--white-color);
+  margin: 0;
+}
+
+.header-container i,
+.header-container-no-hover i {
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+
+.header-container button {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+
+/* Footer */
+
+#footer-container {
+  background-color: var(--black-color);
+  height: 10vh;
+}
+
+#footer-container p {
+  color: var(--light-grey-color);
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.southpaw-copyright {
+  font-size: var(--responsive-text);
+}
+
+.social-media-footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-footer-links li a {
+  color: var(--light-grey-color);
+  font-size: 1.5rem;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+  margin: 0.3rem 0 0 0;
+}
+
+.social-media-footer-links li a:hover,
+.social-media-footer-links li a:focus {
+  color: var(--lime-color);
+}
+
+/* ------------------------------------------ Home Page */
 
 #home-container {
   height: 100vh;
@@ -316,62 +410,7 @@ html {
   margin-top: 1.5rem;
 }
 
-/* Header */
-
-.header-container,
-.header-container-no-hover {
-  background-color: var(--dark-grey-color);
-  height: 5vh;
-  position: relative;
-  z-index: 1;
-}
-
-.header-container::before {
-  background-color: transparent;
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0;
-  height: 3px;
-  transition: all 300ms ease-in-out;
-}
-
-.header-container:hover::before {
-  background-color: var(--lime-color);
-  width: 100%;
-}
-
-.header-container .header-container h1,
-h2,
-.header-container-no-hover h1,
-.header-container-no-hover h2 {
-  color: var(--white-color);
-  font-size: 1.1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-.header-container p,
-.header-container-no-hover p {
-  color: var(--white-color);
-  margin: 0;
-}
-
-.header-container i,
-.header-container-no-hover i {
-  color: var(--white-color);
-  font-size: 1.2rem;
-}
-
-.header-container button {
-  background-color: transparent;
-  border: none;
-  width: 100%;
-}
-
-/* Boxing Guide */
+/* ------------------------------------------ Boxing Guide */
 
 .guide-dropdown-btn {
   width: 100%;
@@ -434,27 +473,26 @@ h2,
   background-blend-mode: multiply;
 }
 
-@media (min-width: 1200px) {
-  #boxing-guide-container {
-    scroll-snap-type: y mandatory;
-  }
-}
-
 /* Hide scrollbar for Chrome, Safari & Opera */
 #boxing-guide-container::-webkit-scrollbar {
   display: none;
-}
-
-@media (min-width: 1200px) {
-  #boxing-guide-container {
-    height: 80vh;
-  }
 }
 
 .guide-slide {
   scroll-snap-align: start;
   height: 90vh;
   overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  #boxing-guide-container {
+    height: 80vh;
+    scroll-snap-type: y mandatory;
+  }
+
+  .guide-slide {
+    height: 80vh;
+  }
 }
 
 /* Modal Styling */
@@ -508,7 +546,7 @@ h2,
   text-align: left;
 }
 
-/* Guide Intro Section */
+/* ---------------------------------- Boxing Guide (Intro) */
 
 #guide-intro-welcome {
   height: 85vh;
@@ -568,7 +606,7 @@ h2,
   }
 }
 
-/* Why Boxing Section */
+/* ---------------------------------- Boxing Guide (Why Boxing) */
 
 #why-boxing-quote-row {
   height: 45vh;
@@ -633,21 +671,6 @@ h2,
   margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
-  #why-boxing-quote-row {
-    height: 35vh;
-  }
-  #why-boxing-challenge-row {
-    height: 10vh;
-  }
-  #why-boxing-bullet-row {
-    height: 12.5vh;
-  }
-  #why-boxing-bullet-text p {
-    width: 100%;
-  }
-}
-
 #why-boxing-paragraph-row {
   height: 27.5vh;
   position: relative;
@@ -675,6 +698,21 @@ h2,
   object-fit: cover;
 }
 
+@media (min-width: 768px) {
+  #why-boxing-quote-row {
+    height: 35vh;
+  }
+  #why-boxing-challenge-row {
+    height: 10vh;
+  }
+  #why-boxing-bullet-row {
+    height: 12.5vh;
+  }
+  #why-boxing-bullet-text p {
+    width: 100%;
+  }
+}
+
 @media (min-width: 1200px) {
   #why-boxing-quote-row {
     height: 32.5vh;
@@ -690,7 +728,7 @@ h2,
   }
 }
 
-/* Boxing & Kickboxing Section */
+/* ------------------------ Boxing Guide (Boxing & Kickboxing) */
 
 #box-kick-container h3 {
   position: absolute;
@@ -805,7 +843,7 @@ h2,
   }
 }
 
-/* Junior Boxing Section */
+/* ----------------------------- Boxing Guide (Junior Boxing) */
 
 .junior-boxing-question-row {
   height: 30vh;
@@ -900,7 +938,7 @@ h2,
   }
 }
 
-/* Clothing Section */
+/* ---------------------------------- Boxing Guide (Clothing) */
 
 #clothing-note-row,
 #clothing-top-row,
@@ -994,7 +1032,7 @@ h2,
   }
 }
 
-/* Closing Note Section */
+/* ------------------------------- Boxing Guide (Closing Note) */
 
 #closing-note-image {
   height: 27.5vh;
@@ -1071,17 +1109,11 @@ h2,
   margin-bottom: 0;
 }
 
-/* Public Sessions */
+/* -------------------------------------- Sessions (Public) */
 
 #public-session-container {
   height: 90vh;
   background-color: var(--white-color);
-}
-
-@media (min-width: 1200px) {
-  #public-session-container {
-    height: 80vh;
-  }
 }
 
 #public-session-container address {
@@ -1090,12 +1122,6 @@ h2,
 
 .public-session-row {
   height: 42.5vh;
-}
-
-@media (min-width: 1200px) {
-  .public-session-row {
-    height: 37.5vh;
-  }
 }
 
 .public-session-info {
@@ -1123,18 +1149,6 @@ h2,
 .session-image {
   height: 40%;
   width: 100%;
-}
-
-@media (min-width: 768px) {
-  .session-image {
-    height: 60%;
-  }
-}
-
-@media (min-width: 992px) {
-  .session-image {
-    height: 40%;
-  }
 }
 
 .public-session-times {
@@ -1168,7 +1182,29 @@ h2,
   font-size: 0.9rem;
 }
 
-/* Private Sessions */
+@media (min-width: 768px) {
+  .session-image {
+    height: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .session-image {
+    height: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #public-session-container {
+    height: 80vh;
+  }
+
+  .public-session-row {
+    height: 37.5vh;
+  }
+}
+
+/* -------------------------------------- Sessions (Private) */
 
 #private-session-container {
   height: 80vh;
@@ -1196,18 +1232,6 @@ h2,
   padding: 0;
 }
 
-@media (min-width: 576px) {
-  #private-session-info {
-    height: 25vh;
-  }
-}
-
-@media (min-width: 992px) {
-  #private-session-info {
-    height: 30vh;
-  }
-}
-
 #private-session-info p {
   margin: 0.2rem;
   letter-spacing: 0.25px;
@@ -1225,38 +1249,8 @@ h2,
   object-fit: cover;
 }
 
-@media (min-width: 576px) {
-  .private-session-image {
-    height: 17.5vh;
-  }
-}
-
-@media (min-width: 992px) {
-  .private-session-image {
-    height: 22.5vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  .private-session-image {
-    height: 15vh;
-  }
-}
-
 #session-contact-container {
   height: 7.5vh;
-}
-
-@media (min-width: 992px) {
-  #session-contact-container {
-    height: 7.5vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  #session-contact-container {
-    height: 5vh;
-  }
 }
 
 #session-contact-questions p {
@@ -1273,7 +1267,41 @@ h2,
   font-size: var(--responsive-text);
 }
 
-/* Form */
+@media (min-width: 576px) {
+  #private-session-info {
+    height: 25vh;
+  }
+
+  .private-session-image {
+    height: 17.5vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #private-session-info {
+    height: 30vh;
+  }
+
+  .private-session-image {
+    height: 22.5vh;
+  }
+
+  #session-contact-container {
+    height: 7.5vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #session-contact-container {
+    height: 5vh;
+  }
+
+  .private-session-image {
+    height: 15vh;
+  }
+}
+
+/* --------------------------------------------- Contact  */
 
 #form-container {
   background: var(--white-color);
@@ -1292,22 +1320,9 @@ h2,
   width: 95%;
 }
 
-@media (min-width: 768px) {
-  .form {
-    height: 60%;
-    width: 60%;
-  }
-}
-
 #form-content-container {
   height: 100%;
   padding: 0;
-}
-
-@media (min-width: 992px) {
-  #form-content-container {
-    width: 50%;
-  }
 }
 
 #form-call-to-action {
@@ -1363,18 +1378,6 @@ h2,
   height: calc(100% - 5vh);
 }
 
-@media (min-width: 992px) {
-  #form-content-container {
-    width: 50%;
-    height: calc(100% - 5vh);
-  }
-
-  .form {
-    width: 85%;
-    height: 85%;
-  }
-}
-
 #form-image-container img {
   width: 85%;
   height: 85%;
@@ -1392,7 +1395,26 @@ h2,
   object-fit: cover;
 }
 
-/* Form Success */
+@media (min-width: 768px) {
+  .form {
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  #form-content-container {
+    width: 50%;
+    height: calc(100% - 5vh);
+  }
+
+  .form {
+    width: 85%;
+    height: 85%;
+  }
+}
+
+/* ----------------------------------------- Form Success */
 
 #success-content-container {
   height: calc(100% - 5vh);
@@ -1402,18 +1424,6 @@ h2,
   background-color: var(--light-grey-color);
   height: 90%;
   min-width: 50%;
-}
-
-@media (min-width: 992px) {
-  #success-content-container {
-    width: 50%;
-    height: calc(100% - 5vh);
-  }
-
-  #success-message-container {
-    height: 85%;
-    width: 85%;
-  }
 }
 
 #success-message {
@@ -1470,45 +1480,14 @@ h2,
   }
 }
 
-/* Footer */
+@media (min-width: 992px) {
+  #success-content-container {
+    width: 50%;
+    height: calc(100% - 5vh);
+  }
 
-#footer-container {
-  background-color: var(--black-color);
-  height: 10vh;
-}
-
-#footer-container p {
-  color: var(--light-grey-color);
-  font-size: 0.8rem;
-  margin-bottom: 0;
-}
-
-.southpaw-copyright {
-  font-size: var(--responsive-text);
-}
-
-.social-media-footer-links {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.social-media-footer-links li a {
-  color: var(--light-grey-color);
-  font-size: 1.5rem;
-  padding: 0 0.75rem;
-  cursor: pointer;
-  transition: color 200ms ease-in-out;
-  margin: 0.3rem 0 0 0;
-}
-
-.social-media-footer-links li a:hover,
-.social-media-footer-links li a:focus {
-  color: var(--lime-color);
-}
-
-@media (min-width: 1200px) {
-  .guide-slide {
-    height: 80vh;
+  #success-message-container {
+    height: 85%;
+    width: 85%;
   }
 }
