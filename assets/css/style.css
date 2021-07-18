@@ -860,13 +860,14 @@ h2,
   position: relative;
 }
 
+/* Positioned for smaller mobile screens */
 .junior-boxing-question-row h3 {
   position: absolute;
   font-style: italic;
   font-weight: bold;
   font-size: var(--responsive-headings);
-  top: 0.7rem;
-  right: 0.7rem;
+  top: 0.4rem;
+  right: 0.4rem;
   color: var(--black-color);
 }
 
@@ -914,6 +915,22 @@ h2,
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+}
+
+/* Positioned for regular sized mobile screens */
+@media (min-width: 375px) {
+  .junior-boxing-question-row h3 {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+/* Positioned for plus sized mobile screens */
+@media (min-width: 400px) {
+  .junior-boxing-question-row h3 {
+    top: 1rem;
+    right: 0.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1000,7 +1017,6 @@ h2,
 #clothing-bottom-row p {
   font-size: var(--responsive-text);
   margin-bottom: 0;
-  text-align: right;
 }
 
 #clothing-bottom-row button {
@@ -1013,6 +1029,13 @@ h2,
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  #clothing-top-row p,
+  #clothing-bottom-row p {
+    width: 75%;
+  }
 }
 
 @media (min-width: 992px) {
