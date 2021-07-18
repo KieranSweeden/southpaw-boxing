@@ -1367,6 +1367,7 @@ h2,
   color: var(--white-color);
   margin: 0;
   font-size: 1.4rem;
+  margin-bottom: 0.3rem;
 }
 
 .contact-number {
@@ -1388,6 +1389,8 @@ h2,
 #form-container .form input,
 #form-container .form textarea {
   padding-left: 5px;
+  border-radius: 0;
+  border: none;
 }
 
 #form-container select {
@@ -1443,6 +1446,10 @@ h2,
   .form {
     height: 60%;
     width: 60%;
+  }
+
+  .form-call-to-action {
+    margin-bottom: 0;
   }
 }
 
