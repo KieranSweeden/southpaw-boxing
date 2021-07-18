@@ -83,7 +83,7 @@ The CSS validator results from the [W3C CSS Validation Service](https://jigsaw.w
 
 ### Lighthouse Desktop
 
-[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website for desktop. You can view a report of what took place to improve performance for each page below:
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance of the website for desktop. Google Chrome encouraged that performance testing should be done in incognito mode, so that was done prior to investigating performance. You can view a report of what took place to improve performance for each page below:
 
 <details>
 <summary>index.html</summary>
@@ -187,6 +187,30 @@ This problem was quickly fixed in including a suitable meta description for the 
 </details>
 
 ### Lighthouse Mobile
+
+<details>
+<summary>boxing-guide.html</summary>
+
+</details>
+
+<details>
+<summary>Other pages</summary>
+
+All of the other pages gave optimal results when tested for mobile devices as is shown below:
+
+index.html results
+![index.html mobile testing results](/assets/images/readme/performance/mobile-index.html.jpg)
+
+sessions.html results
+![sessions.html mobile testing results](/assets/images/readme/performance/mobile-sessions.html.jpg)
+
+contact.html results
+![contact.html mobile testing results](/assets/images/readme/performance/mobile-contact.html.jpg)
+
+form-success.html results
+![form-success.html mobile testing results](/assets/images/readme/performance/mobile-form-success.html.jpg)
+
+</details>
 
 ## User Stories Testing
 
