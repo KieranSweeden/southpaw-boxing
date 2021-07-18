@@ -329,6 +329,8 @@ This section contains any consistent bugs that proved to be difficult during the
 
 - When clicked, a menu item hasn't been selected and the user decides to click on the page to collapse the dropdown menu, the heading dropdown menus within the boxing guide page maintain a lighter colour as if they're currently selected, despite that not being the case.
 
+- On first load, the video background for index.html doesn't start. It does however play as intended on the second load onwards.
+
 ## Responsive Design Testing
 
 ### Hardware Used
