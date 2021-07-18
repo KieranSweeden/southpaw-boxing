@@ -621,17 +621,14 @@ h2,
   height: 45vh;
 }
 
-#why-boxing-image,
-#why-boxing-image img {
-  height: 100%;
-}
-
 #why-boxing-image {
+  height: 100%;
   padding: 0;
 }
 
 #why-boxing-image img {
   object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 

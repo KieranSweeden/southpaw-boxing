@@ -191,12 +191,28 @@ This problem was quickly fixed in including a suitable meta description for the 
 <details>
 <summary>boxing-guide.html</summary>
 
+Boxing-guide.html was the stand out in lack of performance, mostly due to render-blocking resources which after investigating, seem to be out of the scope of this project. The results for boxing-guide.html can be seen below:
+
+![boxing-guide.html mobile testing results before fixes](/assets/images/readme/performance/mobile-boxing-guide.html-before.jpg)
+
+Despite a large portion of the problems deriving from render-blocking resources, other performance improvement opportunities have been suggested, as shown below:
+
+![boxing-guide.html mobile performance improvement opportunities](/assets/images/readme/performance/mobile-boxing-guide.html-opportunities.jpg)
+
+After investigating, removing un-used CSS would require additional tools and applications which would fall out of the scope of this project.
+
+Although removing spaces in the style.css makes sense to improve performance, this project is being accessed, and therefore the formatting needs to be readable for the individual marking this project, meaning this cannot be done either.
+
+What can be done, is making sure the images are properly sized and optimized for mobile. Lighthouse's suggestions are given below:
+
+![boxing-guide.html images that should be properly sized for mobile](/assets/images/readme/performance/mobile-boxing-guide.html-images.jpg)
+
 </details>
 
 <details>
 <summary>Other pages</summary>
 
-All of the other pages gave optimal results when tested for mobile devices as is shown below:
+Other than Lighthouse suggesting to eliminate render-blocking resources which are out of the scope of this project, all of the other pages gave optimal results when tested for mobile devices as is shown below:
 
 index.html results
 ![index.html mobile testing results](/assets/images/readme/performance/mobile-index.html.jpg)
