@@ -215,6 +215,8 @@ After generating a new report, the properly size images opportunity disappeared.
 
 After following [this web.dev article](https://web.dev/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=devtools) on preconnecting to required origins and adding a link in the head of the boxing-guide.html file, the performance of the site came back optimal as shown below:
 
+![boxing-guide.html after fixes](/assets/images/readme/performance/mobile-boxing-guide.html-after.jpg)
+
 </details>
 
 <details>
