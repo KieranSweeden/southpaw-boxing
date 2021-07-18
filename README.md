@@ -21,27 +21,27 @@ Click [here](https://kieransweeden.github.io/southpaw-boxing/) to view the live 
      - [Skeleton](#Skeleton)
      - [Surface](#Surface)
 
-1. [Features](#Features)
+2. [Features](#Features)
 
    - [Current](#Current)
    - [Potential](#Potential)
 
-1. [Testing](#testing)
+3. [Testing](#testing)
 
-   - [Validator Testing](#Validator-Testing)
+4. [Deployment](#Deployment)
 
-1. [Deployment](#Deployment)
+5. [Development Life Cycle](#Development-Life-Cycle)
 
-1. [Technologies](#Technologies)
+6. [Technologies](#Technologies)
 
-1. [Credits](#Credits)
+7. [Credits](#Credits)
 
    - [Code](#Code)
    - [Resources](#Resources)
    - [Content](#Content)
    - [Media](#Media)
 
-1. [Acknowledgements](#Acknowledgements)
+8. [Acknowledgements](#Acknowledgements)
 
 ## UX
 
@@ -360,6 +360,32 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 ## Testing
 
 To view all testing procedures undertaken, [click here](TESTING.md).
+
+[Return to Index](#index)
+
+## Development Life Cycle
+
+This section provides a written outlook of my experience in developing this project.
+
+During the design phase of this project, I thought the five planes helped greatly in providing a clear vision in the project's design and purpose to the target audience. With this being said, I underestimated the lack of screen real-estate and I was ambitious with the amount of text I could place in front of the user in the [wireframes](#Skeleton). I feel I've adapted well in providing information to the user with the use of Bootstrap 5 modals, however this wasn't the plan initially.
+
+A style tile would've been useful prior to starting this project, as having an clear understanding of how buttons, links and other components in general would've looked prior to starting, would've made the development process far more streamlined. This idea of pre-determined components could also be applied to classes within the style.css file. Looking back, I felt I could've stuck with utility classes more and be more conservative when creating more individual CSS for various elements. This would've resulting in a less bulky css file which is useful for performance and would also make the code more maintainable.
+
+Starting with a mobile-first approach proved useful, especially considering that Bootstrap 5 prefers a mobile-first approach. However the design of mandatory scrolled slides for the boxing guide felt ambitious and counter-intuitive for mobile devices, due to attempting to fit the same amount of information on a slide which is smaller on a mobile and far larger on desktop. Unless a future website I was creating had the desktop experience placed as the highest priority and had little information to convey, I wouldn't implement scroll-snap-align functionality for a website like this in the future.
+
+A considerable amount of my time during this project was spent working with and amending Bootstrap 5. Despite this causing various headaches throughout the development cycle of this project, I felt this was the right decision given the mobile-first outlook and this outlook was made clear when working through the 5 planes during the design phase.
+
+The mistakes made throughout the development cycle of this project largely fall under best practises and consistency. Examples of which include:
+
+- Overriding Bootstrap 5 components, which became difficult as to make the necessary changes I wanted to make, I had to dig deep with Dev Tools to find which elements I needed to target in my CSS to make my desired styling changes.
+
+- Not sticking to the row - col grid structure that Bootstrap 5 makes clear in it's documentation. This resulted in me eventually coming back to the code and re-formatting it in the row - col structure, which took a considerable amount of time. If I had started with the grid structure, I could've dedicated more of my time to making the site more responsive and accessible.
+
+- Stick with an exact amount of spacing (padding/margins etc.) throughout the site. Using various amounts of padding and margins for various styles made the styling inconsistent, making the site look unprofessional. If I had stuck with some initial values for these properties, I think this would've helped maintain consistency throughout the site.
+
+- Designing and developing with accessibility in mind. This helps in building a semantic structure throughout the page, which not only makes it accessibile to impaired users but makes it SEO friendly. This would've saved me time towards the later end of this project, where I was looking over the project in where I could improve accessibility and Lighthouse performance scores and this proved difficult as I didn't have accessibility in mind in the first place.
+
+- Sticking with a commit format. Although I feel in some cases I did provide meaningful commit comments, I believe I could have made them more consistent. An example beign sticking with calling pages by their file name, rather than calling them "contact page", "boxing guide" etc. Although this is obvious to me when looking over the project, to a developer unfamiliar with this project it may take more time to understand.
 
 [Return to Index](#index)
 
