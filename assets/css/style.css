@@ -475,7 +475,7 @@ h2,
   -ms-overflow-style: none;
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
-  background: rgba(0, 0, 0, 0.75)
+  background: rgba(0, 0, 0, 0.85)
     url(../images/boxing-guide/southpaw-image-tutor-child-pads.jpg) no-repeat
     center/cover;
   background-blend-mode: multiply;
