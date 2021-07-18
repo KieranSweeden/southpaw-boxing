@@ -207,6 +207,14 @@ What can be done, is making sure the images are properly sized and optimized for
 
 ![boxing-guide.html images that should be properly sized for mobile](/assets/images/readme/performance/mobile-boxing-guide.html-images.jpg)
 
+This was promptly fixed by creating two new files that were smaller in size and using the srcset attribute within an img element. The idea for this came from [this Mozilla article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) on responsive images.
+
+After generating a new report, the properly size images opportunity disappeared. However a new opportunity arose relating to pre-connecting to establish early connections with third parties, as shown below:
+
+![boxing-guide.html preconnect opportunity](/assets/images/readme/performance/mobile-boxing-guide.html-preconnect.jpg)
+
+After following [this web.dev article](https://web.dev/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=devtools) on preconnecting to required origins and adding a link in the head of the boxing-guide.html file, the performance of the site came back optimal as shown below:
+
 </details>
 
 <details>
