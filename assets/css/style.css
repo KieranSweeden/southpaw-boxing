@@ -1468,6 +1468,7 @@ h2,
   background-color: var(--light-grey-color);
   height: 90%;
   min-width: 50%;
+  border-bottom: 5px var(--lime-color) solid;
 }
 
 #success-message {
