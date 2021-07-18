@@ -389,6 +389,8 @@ The mistakes made throughout the development cycle of this project largely fall 
 
 - Refreshing the page with cache turned off, this would put me in the position of consistently seeing what a new user would see when viewing the website. This can often present bugs that my own devices couldn't provide due to them containing cache regarding the website.
 
+- Consistently write comments whilst writing code, rather than going back through the code and applying comments at a later point the development life cycle.
+
 [Return to Index](#index)
 
 ## Deployment

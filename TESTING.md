@@ -64,7 +64,7 @@ The HTML validator results from the [W3C Markup Validation Service](https://vali
 <details>
    <summary>form-success.html</summary>
 
-![Index page html validator results](/assets/images/readme/validator/html-validator-contact.png)
+![Index page html validator results](/assets/images/readme/validator/html-validator-form-success.png)
 
 </details>
 
@@ -75,7 +75,7 @@ The CSS validator results from the [W3C CSS Validation Service](https://jigsaw.w
 <details>
    <summary>style.css</summary>
 
-![Index page html validator results](/assets/images/readme/validator/html-validator-contact.png)
+![Style.css validator results](/assets/images/readme/validator/css-validator-results.jpg)
 
 </details>
 
