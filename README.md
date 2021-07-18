@@ -387,6 +387,8 @@ The mistakes made throughout the development cycle of this project largely fall 
 
 - Sticking with a commit format. Although I feel in some cases I did provide meaningful commit comments, I believe I could have made them more consistent. An example beign sticking with calling pages by their file name, rather than calling them "contact page", "boxing guide" etc. Although this is obvious to me when looking over the project, to a developer unfamiliar with this project it may take more time to understand.
 
+- Refreshing the page with cache turned off, this would put me in the position of consistently seeing what a new user would see when viewing the website. This can often present bugs that my own devices couldn't provide due to them containing cache regarding the website.
+
 [Return to Index](#index)
 
 ## Deployment

@@ -473,8 +473,6 @@ h2,
 
   /* Hide scrollbar for IE & Edge */
   -ms-overflow-style: none;
-  /* Hide scrollbar for Firefox */
-  /* scrollbar-width: none; */
 
   /* Credited Code (Placing a dark overlay over a background image, #3 in credited code list within README) */
   background: rgba(0, 0, 0, 0.75)
@@ -498,6 +496,7 @@ h2,
   #boxing-guide-container {
     height: 80vh;
     scroll-snap-type: y mandatory;
+    -ms-scroll-snap-type: y mandatory;
   }
 
   .guide-slide {

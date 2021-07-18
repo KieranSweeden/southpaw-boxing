@@ -315,9 +315,19 @@ The functionality of the features/elements presented below have been tested.
 
 ## Bugs
 
+This section contains any consistent bugs that proved to be difficult during the development cycle of this project.
+
 ### Fixed
 
+- A common occuring bug throughout the development process was dealing with Bootstrap 5 constantly making columns within rows have top, right, bottom and left margins of -12px. This was severely impacting the overall visual structure of the webpages. After investigating the issue with Dev Tools, I found the issue and resolved it by applying Bootstrap's own margin classes to the columns list of classes respectively.
+
 ### Remaining
+
+- Unfortunately for some particular browsers, the scroll-snap functionality doesn't work particularly well despite the property being supported on most browsers. The browsers in question are Safari & Google Chrome for iOS. This was found during a UX test, where the user was using their iPad and the scroll-snap-point would snap to the top of the viewport rather than the bottom of the navigation as intended. What was unusual however, was that over a period of time the functionality would begin to work, which makes sense as the bug wasn't presented on my own devices, which probably contained cache regarding my website.
+
+- Due to me being focused on the portrait orientation of the site when it comes to being viewed on mobile, it's meant the landscape experience of the site is poor due to various bugs which largely fall under sizing & styling. Although I personally wouldn't expect users to navigate the site this way, it's poor to not give the user the option to experience the site in this orientation on mobile.
+
+- When clicked, a menu item hasn't been selected and the user decides to click on the page to collapse the dropdown menu, the heading dropdown menus within the boxing guide page maintain a lighter colour as if they're currently selected, despite that not being the case.
 
 ## Responsive Design Testing
 
