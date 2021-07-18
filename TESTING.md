@@ -16,16 +16,19 @@ To go back to the README file, [click here](README.md).
 
 3. [User Stories Testing](#User-Stories-Testing)
 
-4. [Manual Testing](#Manual-Testing)
+4. [UX Testing](#UX-Testing)
 
-5. [Bugs](#Bugs)
+5. [Manual Testing](#Manual-Testing)
+
+6. [Bugs](#Bugs)
 
    - [Fixed](#Fixed)
    - [Remaining](#Remaining)
 
-6. [Responsive Design Testing](#Responsive-Design-Testing)
+7. [Responsive Design](#Responsive-Design)
 
    - [Hardware Used](#Hardware-Used)
+   - [Software Used](#Software-Used)
 
 ## Validation Testing
 
@@ -296,6 +299,32 @@ As a visitor in general, I want to:
 
   - Social media links can be found at the bottom of every page within the site. These links open a new tab, meaning the user can still continue in browsing the Southpaw site with no hassle.
 
+## UX Testing
+
+As an experiment, I asked a couple of friends and family to participate in performing tasks a user would usually perform on the site, to see how the UX of the website could be improved. This method proved to be really beneficial, as problems I would not have originally thought of had arose and raised some insightful questions regarding the UX of the site.
+
+I gave those friends & family these simple tasks:
+
+![The to-do list I gave to friends & family](/assets/images/readme/ux-testing/to-do-list.jpg)
+
+During the first task:
+
+- A few of them clicked sessions instead of boxing guide. Although I didn't expect this, this made a lot of sense when looking at it from their perspective, in that junior boxing could be interpreted as a session and therefore be found within the sessions page.
+
+Regarding the second task:
+
+- Some were confused by the horizontal layout of the sessions page when being viewed on iPad. Some found that the sections weren't clearly distinct from one another visually. I later made adjustments based on this feedback, adding a black border to seperate the headings so that they could be clearly distinguished.
+
+- Some were taken back by the aside section on the sessions page. When they understood the layout, they were fine with it but this did take time for them to adjust to which could be considered bad UX.
+
+- Some felt that simply having "Boxing" & "Fitness" in the aside section as headings was confusing. They suggested having sessions underneath to further clarify them. I added sessions to each heading in the aside section after receiving this feedback.
+
+Onto the third task:
+
+- Everyone immediately knew where the social media icons were on the page, which is a huge positive.
+
+- Some users immediately knew about the dropdown menu as the 3 lines were present, which is a positive.
+
 ## Manual Testing
 
 The functionality of the features/elements presented below have been tested.
@@ -381,7 +410,7 @@ This section contains any consistent bugs that proved to be difficult during the
 
 - On first load, the video background for index.html doesn't start. It does however play as intended on the second load onwards.
 
-## Responsive Design Testing
+## Responsive Design
 
 ### Hardware Used
 
