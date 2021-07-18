@@ -17,31 +17,28 @@ Click [here](https://kieransweeden.github.io/southpaw-boxing/) to view the live 
    - [The Five Planes](#The-Five-Planes)
      - [Strategy](#Strategy)
      - [Scope](#Scope)
+       - [Current Features](#Current-Features)
+       - [Future Features](#Future-Features)
      - [Structure](#Structure)
      - [Skeleton](#Skeleton)
      - [Surface](#Surface)
 
-2. [Features](#Features)
+2. [Development Life Cycle](#Development-Life-Cycle)
 
-   - [Current](#Current)
-   - [Potential](#Potential)
-
-3. [Testing](#testing)
+3. [Testing](#Testing)
 
 4. [Deployment](#Deployment)
 
-5. [Development Life Cycle](#Development-Life-Cycle)
+5. [Technologies](#Technologies)
 
-6. [Technologies](#Technologies)
-
-7. [Credits](#Credits)
+6. [Credits](#Credits)
 
    - [Code](#Code)
    - [Resources](#Resources)
    - [Content](#Content)
    - [Media](#Media)
 
-8. [Acknowledgements](#Acknowledgements)
+7. [Acknowledgements](#Acknowledgements)
 
 ## UX
 
@@ -206,6 +203,8 @@ Above are a list of potential features that are given a rating from 1 to 5 on im
 
 ### Scope
 
+#### Current Features
+
 What's on the table?
 
 For the initial release of the website, the features present should align with the strategy previously stated, helping both the visitor and business with their respective goals. Taking this into consideration along with the viability of some of the previously mentioned features, the features which should be on the table include:
@@ -219,6 +218,8 @@ Keeping the scope of this project to a minimal and realistic size, increases the
 - Additional help in making an informed choice in what they wish to learn.
 - A way to contact the club directly if they have any further questions.
 - To see that the club is proven in helping individuals achieve their personal goals.
+
+#### Future Features
 
 The features that are currently off the table, would be nice to include within the website but ultimately would not tackle visitor and business goals as much as those currently on the table. An argument could definitely be made that online payments would be a solid feature to implement, however the amount of time it would take to learn and implement this feature makes it unrealistic for the time being.
 
@@ -349,20 +350,6 @@ Here are the facets of the visual language and how the Southpaw Boxing Club webs
 
 [Return to Index](#index)
 
-## Features
-
-### Current
-
-### Future
-
-[Return to Index](#index)
-
-## Testing
-
-To view all testing procedures undertaken, [click here](TESTING.md).
-
-[Return to Index](#index)
-
 ## Development Life Cycle
 
 This section provides a written outlook of my experience in developing this project.
@@ -390,6 +377,12 @@ The mistakes made throughout the development cycle of this project largely fall 
 - Refreshing the page with cache turned off, this would put me in the position of consistently seeing what a new user would see when viewing the website. This can often present bugs that my own devices couldn't provide due to them containing cache regarding the website.
 
 - Consistently write comments whilst writing code, rather than going back through the code and applying comments at a later point the development life cycle.
+
+[Return to Index](#index)
+
+## Testing
+
+To view all testing procedures undertaken, [click here](TESTING.md).
 
 [Return to Index](#index)
 
